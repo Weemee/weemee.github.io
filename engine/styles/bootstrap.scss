@@ -1,0 +1,20 @@
+// Customize Bootstrap Variables
+// Source: https://raw.githubusercontent.com/twbs/bootstrap/v4-dev/scss/_variables.scss
+$link-color: 				"dark";
+
+$font-family-sans-serif:    'Roboto', sans-serif;
+$link-hover-decoration:     none;
+
+$card-border-width:         0;
+
+// Rebuild some maps/loops
+// Documentation:   https://getbootstrap.com/docs/4.0/getting-started/theming/#maps-and-loops
+
+// Customize Bootstrap Components
+// Source:          https://github.com/twbs/bootstrap/tree/v4-dev/scss
+// Documentation:   https://getbootstrap.com/docs/4.0/components/
+
+.card {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, .2);
+	margin-bottom: $grid-gutter-width;
+}
