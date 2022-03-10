@@ -1,40 +1,40 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
 	[0],
 	{
-		308: function (e, t, i) {
-			var n = i(700);
+		323: function (e, t, i) {
+			var n = i(711);
 			'string' == typeof n && (n = [[e.i, n, '']]);
 			var r = { hmr: !0, transform: void 0, insertInto: void 0 };
-			i(702)(n, r);
+			i(713)(n, r);
 			n.locals && (e.exports = n.locals);
 		},
-		351: function (e, t, i) {
-			i(352), i(704), (e.exports = i(308));
+		362: function (e, t, i) {
+			i(363), i(715), (e.exports = i(323));
 		},
-		695: function (e, t) {},
-		697: function (e, t) {},
-		699: function (e, t) {},
-		700: function (e, t, i) {
-			(e.exports = i(701)(!1)).push([
+		706: function (e, t) {},
+		708: function (e, t) {},
+		710: function (e, t) {},
+		711: function (e, t, i) {
+			(e.exports = i(712)(!1)).push([
 				e.i,
-				'@use "constants" as *;span{user-select:none}.dg .a{float:left}a,a:link,a:visited{text-decoration:none;color:inherit}a:hover{text-decoration:underline;color:inherit}a:active{text-decoration:none;color:inherit}html{font-family:sans-serif}#hover-date-selection-crap:hover{background-color:#8ab4e7!important}#sessionCanvas{width:100%;height:100%}.middle-screen{width:400px;margin-left:auto;margin-right:auto;margin-top:320px}#sessionCanvas:-webkit-full-screen{width:100%!important;height:100%!important}.talentTopPanel{flex:1;min-height:10%;max-height:10%;padding:10px;box-shadow:0 1px 4px #000}#talentContentPanel{padding:15px}#designerArea{position:fixed;background-color:#f0f8ff;border-radius:2px;border-color:#000;color:#000;height:40%;width:60%;bottom:7%;left:20%;z-index:99}#menuShaderDimThing{position:fixed;background-color:rgba(0,0,0,.4);height:100%;width:100%;animation:fadein .33s;-webkit-animation:fadein .33s;z-index:933}@keyframes fadein{0%{opacity:0}to{opacity:1}}body{background-color:#fff!important;overflow:hidden;overflow-y:scroll}@-webkit-keyframes fadein{0%{opacity:0}to{opacity:1}}#menuArea{position:fixed;background-color:#f0f8ff;border-radius:2px;border-color:#000;color:#000;height:60%;width:34%;bottom:20%;left:33%;z-index:999}.dg.ac{z-index:2}#visualArea{position:fixed;background-color:#000;border-radius:2px;border-color:#c5c5c5;color:#e2e2e2;height:100%;width:100%}#visualCanvas,#wrapper{position:absolute;width:100%;height:100%}#wrapper{overflow:hidden}#background-renderer{z-index:-1}.fixed{position:fixed}.full-height{height:100%}#authentication{width:100vw;height:100vh}#contentWrapper{overflow-y:scroll;margin-top:80px;height:calc(100vh - 80px * 2);float:right;width:calc(80vw - 80px);margin-right:80px;display:flex;position:relative}.flex-display{display:flex}#session,.transparent-bg{background-color:transparent!important}#session{width:100vw}#3DGraphics,#sessionCanvas{position:absolute;height:100%!important;width:100%!important}.userInterface{position:fixed;bottom:0;width:100%;height:60px}#bottomBar{position:relative;width:285px;margin:auto}.toggleGridBtn{position:fixed;left:0;top:0}.newThing{position:absolute;width:12px;height:24px;margin-top:-16px;margin-left:26px;text-align:center;border:2px solid orange;border-radius:3px}.hideScroll{width:1600%;height:calc(100% - 42px);overflow-y:auto}::-webkit-scrollbar{display:none}.periodicElement{position:absolute;width:5.55556%;height:10%;box-shadow:0 0 12px rgba(34,170,248,.5);border:1px solid rgba(127,255,255,.25);text-align:center;cursor:default}.periodicElement .periodicSymbol{top:10px;left:0;right:0;font-size:24px;font-weight:700}.periodicElement .periodicNumber,.periodicElement .periodicSymbol{position:absolute;color:hsla(0,0%,100%,.75);text-shadow:0 0 10px rgba(32,212,212,.726)}.periodicElement .periodicNumber{top:0;left:2px;font-size:14px}.periodicElement .periodicMass{position:absolute;top:38px;left:0;right:0;font-size:12px;color:hsla(0,0%,100%,.75)}.periodicElement .resourceAmount{position:absolute;top:52px;left:0;right:0;font-size:14px;color:hsla(0,0%,100%,.75)}.periodicElement:hover{box-shadow:0 0 12px rgba(0,255,255,.75);border:1px solid rgba(127,255,255,.75)}.dnd-list-area{width:50px;max-width:93.5px;height:50px;background:#666;border:1px solid #333;border-radius:5px;box-shadow:1px 1px 3px rgba(0,0,0,.3);flex:0 0 10%;min-height:99.1%;overflow:hidden}.dnd-list-area,.dnd-test-area{position:relative;z-index:2222;margin:3px;user-select:none}.dnd-test-area{width:85px;height:85px;border-radius:5px}.dnd-test-area.\\--selection{background:#b9b9b9;text-align:center}.dnd-test-area.\\--drop{background:#666;min-height:99.1%;text-align:center;flex:1}.dnd-test-area .layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:.55;padding:37px 0 0;color:#fff}.dnd-test-area .invalid{background-color:rgba(100,13,47,.404)}.dnd-test-area .valid{background-color:rgba(36,230,220,.568)}.dnd-test-area .yellow{border:1px solid #ff0;background-color:#ff0;color:#000}.dnd-test-area .red{border:1px solid red;background-color:red}.dnd-test-area .blue{border:1px solid #add8e6;background-color:#add8e6}#molecule-builder{position:relative;display:flex;overflow:auto;flex-wrap:wrap;flex-direction:row;align-items:flex-start;align-content:flex-start;height:-webkit-fill-available}.item{position:absolute;z-index:3;width:85px;height:85px;line-height:1;font-size:18px}.item.dragging{opacity:.5}.item .item-layer{position:absolute;top:5px;right:5px;bottom:5px;left:5px;border-radius:50%}.item .item-name{display:flex;color:#aaa;justify-content:center;align-items:center}.item .item-name span{overflow:visible;white-space:nowrap}.item.highlight-selection{box-shadow:0 0 9px 8px #186c9d;border-radius:50%}.item .item-count{display:flex;color:#eee;justify-content:flex-end;align-items:flex-end}.resourceElementsContainer{width:70%;height:80%;top:5%;left:0;z-index:98}.locationContainer,.resourceElementsContainer{position:absolute;border-style:solid;border-width:2px;background-color:rgba(92,137,137,.9)}.locationContainer{width:40%;height:20%;left:10%}.item-context-menu{position:absolute;width:200px;border-style:solid;border-width:3px;top:20px;left:40px;background-color:#8d7272;z-index:99999}.item-context-menu .context-menu-slice{flex:1;position:relative;width:100%;background-color:#d3e4f3;color:#000;font-size:16px}.item-context-menu .context-menu-slice:hover{background-color:#86aed1;cursor:pointer}#assembler-button-bar{position:absolute;z-index:2223;left:12%;top:1.4%}#assembler-button-bar .selected-mode{background-color:#095592!important;color:#fff!important}#assembler-button-bar .selected-mode:hover{color:#fff!important}.buildingsContainer{width:30%;height:40%;top:20%;z-index:99}.buildingsContainer,.levelsContainer{position:absolute;border-style:solid;border-width:2px;background-color:rgba(92,137,137,.9);right:0}.levelsContainer{width:20%;height:20%;top:0}.craftingContainer{width:70%;height:70%;bottom:15%;right:5%;z-index:101}.craftingContainer,.researchContainer{position:absolute;border-style:solid;border-width:2px;background-color:rgba(92,137,137,.9)}.researchContainer{width:30%;height:30%;bottom:10%;right:0}.statsContainer{width:10%;height:15%;bottom:0;left:0}.statsContainer,.talentsContainer{position:absolute;border-style:solid;border-width:2px;background-color:rgba(92,137,137,.9)}.talentsContainer{width:60%;height:60%;bottom:20%;left:20%;z-index:100}.object-tooltip{position:absolute;background:rgba(0,0,0,.9);box-shadow:2px 2px 5px rgba(0,0,0,.3);padding:4px 8px;color:#eee;z-index:64500;width:auto;min-width:100px;max-width:325px;border-radius:3px}.object-tooltip .description,.object-tooltip .name{font-size:120%;color:cyan}.object-tooltip .cost{font-size:120%;color:#fff}.object-tooltip .time{font-size:120%;color:#ba55d3}#onlinePlayersHeader{position:relative;background:gray;color:#fff;width:10%;margin:0 auto;padding:5px;text-align:center}#cool-loader{position:fixed;height:100%;width:100%;overflow:hidden;z-index:99999;background:#1e1e1e}#cool-loader .react-spinner-loader-svg{position:relative;margin:0 auto;width:128px;margin-top:20%;text-align:center;color:#fff}#cool-loader .react-spinner-loader-svg svg{-webkit-transform-origin:50% 65%;transform-origin:50% 65%}#cool-loader .react-spinner-loader-svg svg polygon{stroke-dasharray:17;-webkit-animation:dash 2.5s cubic-bezier(.35,.04,.63,.95) infinite;animation:dash 2.5s cubic-bezier(.35,.04,.63,.95) infinite}@-webkit-keyframes dash{to{stroke-dashoffset:136}}@keyframes dash{to{stroke-dashoffset:136}}@-webkit-keyframes rotate{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes rotate{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}',
+				'@use "constants" as *;span{user-select:none}.dg .a{float:left}a,a:link,a:visited{text-decoration:none;color:inherit}a:hover{text-decoration:underline;color:inherit}a:active{text-decoration:none;color:inherit}html{font-family:sans-serif}#hover-date-selection-crap:hover{background-color:#8ab4e7!important}#hover-chat-area:hover{background-color:#bf48857c!important}#sessionCanvas{width:100%;height:100%}.middle-screen{width:400px;margin-left:auto;margin-right:auto;margin-top:320px}#sessionCanvas:-webkit-full-screen{width:100%!important;height:100%!important}.talentTopPanel{flex:1;min-height:10%;max-height:10%;padding:10px;box-shadow:0 1px 4px #000}#talentContentPanel{padding:15px}#designerArea{position:fixed;background-color:#f0f8ff;border-radius:2px;border-color:#000;color:#000;height:40%;width:60%;bottom:7%;left:20%;z-index:99}#menuShaderDimThing{position:fixed;background-color:rgba(0,0,0,.4);height:100%;width:100%;animation:fadein .33s;-webkit-animation:fadein .33s;z-index:933}@keyframes fadein{0%{opacity:0}to{opacity:1}}body{background-color:#fff!important;overflow:hidden;overflow-y:scroll}@-webkit-keyframes fadein{0%{opacity:0}to{opacity:1}}#menuArea{position:fixed;background-color:#f0f8ff;border-radius:2px;border-color:#000;color:#000;height:60%;width:34%;bottom:20%;left:33%;z-index:999}.dg.ac{z-index:2}#visualArea{position:fixed;background-color:#000;border-radius:2px;border-color:#c5c5c5;color:#e2e2e2;height:100%;width:100%}#visualCanvas,#wrapper{position:absolute;width:100%;height:100%}#wrapper{overflow:hidden}#background-renderer{z-index:-1}.fixed{position:fixed}.full-height{height:100%}#authentication{width:100vw;height:100vh}#contentWrapper{overflow-y:scroll;margin-top:80px;height:calc(100vh - 80px * 2);float:right;width:calc(80vw - 80px);margin-right:80px;display:flex;position:relative}.flex-display{display:flex}#session,.transparent-bg{background-color:transparent!important}#session{width:100vw}#3DGraphics,#sessionCanvas{position:absolute;height:100%!important;width:100%!important}.userInterface{position:fixed;bottom:0;width:100%;height:60px}#bottomBar{position:relative;width:285px;margin:auto}.toggleGridBtn{position:fixed;left:0;top:0}.newThing{position:absolute;width:12px;height:24px;margin-top:-16px;margin-left:26px;text-align:center;border:2px solid orange;border-radius:3px}.hideScroll{width:1600%;height:calc(100% - 42px);overflow-y:auto}::-webkit-scrollbar{display:none}.periodicElement{position:absolute;width:5.55556%;height:10%;box-shadow:0 0 12px rgba(34,170,248,.5);border:1px solid rgba(127,255,255,.25);text-align:center;cursor:default}.periodicElement .periodicSymbol{top:10px;left:0;right:0;font-size:24px;font-weight:700}.periodicElement .periodicNumber,.periodicElement .periodicSymbol{position:absolute;color:hsla(0,0%,100%,.75);text-shadow:0 0 10px rgba(32,212,212,.726)}.periodicElement .periodicNumber{top:0;left:2px;font-size:14px}.periodicElement .periodicMass{position:absolute;top:38px;left:0;right:0;font-size:12px;color:hsla(0,0%,100%,.75)}.periodicElement .resourceAmount{position:absolute;top:52px;left:0;right:0;font-size:14px;color:hsla(0,0%,100%,.75)}.periodicElement:hover{box-shadow:0 0 12px rgba(0,255,255,.75);border:1px solid rgba(127,255,255,.75)}.dnd-list-area{width:50px;max-width:93.5px;height:50px;background:#666;border:1px solid #333;border-radius:5px;box-shadow:1px 1px 3px rgba(0,0,0,.3);flex:0 0 10%;min-height:99.1%;overflow:hidden}.dnd-list-area,.dnd-test-area{position:relative;z-index:2222;margin:3px;user-select:none}.dnd-test-area{width:85px;height:85px;border-radius:5px}.dnd-test-area.\\--selection{background:#b9b9b9;text-align:center}.dnd-test-area.\\--drop{background:#666;min-height:99.1%;text-align:center;flex:1}.dnd-test-area .layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:.55;padding:37px 0 0;color:#fff}.dnd-test-area .invalid{background-color:rgba(100,13,47,.404)}.dnd-test-area .valid{background-color:rgba(36,230,220,.568)}.dnd-test-area .yellow{border:1px solid #ff0;background-color:#ff0;color:#000}.dnd-test-area .red{border:1px solid red;background-color:red}.dnd-test-area .blue{border:1px solid #add8e6;background-color:#add8e6}#molecule-builder{position:relative;display:flex;overflow:auto;flex-wrap:wrap;flex-direction:row;align-items:flex-start;align-content:flex-start;height:-webkit-fill-available}.item{position:absolute;z-index:3;width:85px;height:85px;line-height:1;font-size:18px}.item.dragging{opacity:.5}.item .item-layer{position:absolute;top:5px;right:5px;bottom:5px;left:5px;border-radius:50%}.item .item-name{display:flex;color:#aaa;justify-content:center;align-items:center}.item .item-name span{overflow:visible;white-space:nowrap}.item.highlight-selection{box-shadow:0 0 9px 8px #186c9d;border-radius:50%}.item .item-count{display:flex;color:#eee;justify-content:flex-end;align-items:flex-end}.resourceElementsContainer{width:70%;height:80%;top:5%;left:0;z-index:98}.locationContainer,.resourceElementsContainer{position:absolute;border-style:solid;border-width:2px;background-color:rgba(92,137,137,.9)}.locationContainer{width:40%;height:20%;left:10%}.item-context-menu{position:absolute;width:200px;border-style:solid;border-width:3px;top:20px;left:40px;background-color:#8d7272;z-index:99999}.item-context-menu .context-menu-slice{flex:1;position:relative;width:100%;background-color:#d3e4f3;color:#000;font-size:16px}.item-context-menu .context-menu-slice:hover{background-color:#86aed1;cursor:pointer}#assembler-button-bar{position:absolute;z-index:2223;left:12%;top:1.4%}#assembler-button-bar .selected-mode{background-color:#095592!important;color:#fff!important}#assembler-button-bar .selected-mode:hover{color:#fff!important}.buildingsContainer{width:30%;height:40%;top:20%;z-index:99}.buildingsContainer,.levelsContainer{position:absolute;border-style:solid;border-width:2px;background-color:rgba(92,137,137,.9);right:0}.levelsContainer{width:20%;height:20%;top:0}.craftingContainer{width:70%;height:70%;bottom:15%;right:5%;z-index:101}.craftingContainer,.researchContainer{position:absolute;border-style:solid;border-width:2px;background-color:rgba(92,137,137,.9)}.researchContainer{width:30%;height:30%;bottom:10%;right:0}.statsContainer{width:10%;height:15%;bottom:0;left:0}.statsContainer,.talentsContainer{position:absolute;border-style:solid;border-width:2px;background-color:rgba(92,137,137,.9)}.talentsContainer{width:60%;height:60%;bottom:20%;left:20%;z-index:100}.object-tooltip{position:absolute;background:rgba(0,0,0,.9);box-shadow:2px 2px 5px rgba(0,0,0,.3);padding:4px 8px;color:#eee;z-index:64500;width:auto;min-width:100px;max-width:325px;border-radius:3px}.object-tooltip .description,.object-tooltip .name{font-size:120%;color:cyan}.object-tooltip .cost{font-size:120%;color:#fff}.object-tooltip .time{font-size:120%;color:#ba55d3}#onlinePlayersHeader{position:relative;background:gray;color:#fff;width:10%;margin:0 auto;padding:5px;text-align:center}#cool-loader{position:fixed;height:100%;width:100%;overflow:hidden;z-index:99999;background:#1e1e1e}#cool-loader .react-spinner-loader-svg{position:relative;margin:0 auto;width:128px;margin-top:20%;text-align:center;color:#fff}#cool-loader .react-spinner-loader-svg svg{-webkit-transform-origin:50% 65%;transform-origin:50% 65%}#cool-loader .react-spinner-loader-svg svg polygon{stroke-dasharray:17;-webkit-animation:dash 2.5s cubic-bezier(.35,.04,.63,.95) infinite;animation:dash 2.5s cubic-bezier(.35,.04,.63,.95) infinite}@-webkit-keyframes dash{to{stroke-dashoffset:136}}@keyframes dash{to{stroke-dashoffset:136}}@-webkit-keyframes rotate{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes rotate{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}',
 				'',
 			]);
 		},
-		704: function (e, t, i) {
+		715: function (e, t, i) {
 			'use strict';
 			i.r(t);
 			var n = i(1),
 				r = i.n(n),
 				o = i(65),
 				l = i.n(o),
-				a = i(42),
-				s = i(41),
-				d = (i(561), i(330)),
-				c = i(306),
-				p = i(161),
-				h = i(71);
-			function b(e, t) {
+				a = i(37),
+				s = i(36),
+				d = (i(572), i(335)),
+				c = i(321),
+				p = i(165),
+				b = i(71);
+			function h(e, t) {
 				var i = Object.keys(e);
 				if (Object.getOwnPropertySymbols) {
 					var n = Object.getOwnPropertySymbols(e);
@@ -50,12 +50,12 @@
 				for (var t = 1; t < arguments.length; t++) {
 					var i = null != arguments[t] ? arguments[t] : {};
 					t % 2
-						? b(Object(i), !0).forEach(function (t) {
+						? h(Object(i), !0).forEach(function (t) {
 								j(e, t, i[t]);
 						  })
 						: Object.getOwnPropertyDescriptors
 						? Object.defineProperties(e, Object.getOwnPropertyDescriptors(i))
-						: b(Object(i)).forEach(function (t) {
+						: h(Object(i)).forEach(function (t) {
 								Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(i, t));
 						  });
 				}
@@ -69,11 +69,13 @@
 					e
 				);
 			}
-			const f = { init: !0 };
+			const f = { init: !0, x: !1 };
 			var g = function (e = f, t) {
 				switch (t.type) {
 					case 'INIT_DONE':
 						return x(x({}, e), {}, { init: !1 });
+					case 'SET_LOGGED_IN':
+						return x(x({}, e), {}, { x: !0 });
 				}
 				return e;
 			};
@@ -122,26 +124,29 @@
 				}
 				return e;
 			};
-			var k = (e) => Object(s.c)({ account: v, app: g, router: Object(p.b)(e) }),
-				w = i(155),
+			var w = (e) => Object(s.c)({ account: v, app: g, router: Object(p.b)(e) }),
+				k = i(158),
 				S = i(7);
 			function C() {
-				return { type: 'LOGIN', payload: void 0 };
+				return { type: 'SET_LOGGED_IN', payload: null };
 			}
 			function I() {
+				return { type: 'LOGIN', payload: void 0 };
+			}
+			function T() {
 				return { type: 'LOGOUT', payload: void 0 };
 			}
-			i(695);
-			const T = '#bf4885',
-				D = '#db9c45',
-				z = '#774e9f',
-				B = '#111',
-				N = 'transparent',
-				R = '#f3f3f4',
-				A = '#4082d3';
+			i(706);
+			const D = '#bf4885',
+				z = '#db9c45',
+				B = '#774e9f',
+				N = '#111',
+				R = 'transparent',
+				A = '#f3f3f4',
+				P = '#4082d3';
 			var W = i(6),
-				P = i(787);
-			const L = Object(W.a)(P.a)({
+				L = i(787);
+			const M = Object(W.a)(L.a)({
 					boxShadow: 'none',
 					textTransform: 'none',
 					fontSize: 14,
@@ -168,7 +173,7 @@
 					'&:active': {},
 					'&:focus': {},
 				}),
-				M = Object(W.a)(P.a)({
+				E = Object(W.a)(L.a)({
 					boxShadow: 'none',
 					textTransform: 'none',
 					fontSize: 16,
@@ -193,9 +198,9 @@
 					'&:active': {},
 					'&:focus': {},
 				});
-			var E = i(712),
-				F = i(0);
-			const H = Object(E.a)(() => ({
+			var F = i(723),
+				H = i(0);
+			const $ = Object(F.a)(() => ({
 				root: { display: 'flex', flexDirection: 'column' },
 				area: { display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' },
 				middleBox: {
@@ -219,7 +224,7 @@
 				},
 				boxBottom: { paddingTop: 10, fontWeight: 'bold' },
 			}));
-			var V = Object(w.c)(
+			var V = Object(k.c)(
 					Object(a.c)(
 						function (e) {
 							return {};
@@ -228,19 +233,19 @@
 							return Object(s.b)({}, e);
 						},
 					)((e) => {
-						const t = H();
-						return Object(F.jsxs)('div', {
+						const t = $();
+						return Object(H.jsxs)('div', {
 							className: t.root,
 							children: [
-								Object(F.jsxs)('div', {
+								Object(H.jsxs)('div', {
 									className: t.area,
 									style: { flexDirection: 'column' },
 									children: [
-										Object(F.jsx)('div', {
+										Object(H.jsx)('div', {
 											style: { padding: 20, paddingBottom: 40, fontSize: 50, fontWeight: 'bold' },
 											children: 'TA DIN DANS TILL NYA NIVÅER',
 										}),
-										Object(F.jsx)('div', {
+										Object(H.jsx)('div', {
 											style: {
 												maxWidth: 820,
 												textAlign: 'center',
@@ -251,9 +256,9 @@
 											children:
 												'Såväl för dig som aldrig dansat innan eller som tävlar på elitnivå - privat dansträning ger dig de bästa förutsättningarna för att lyckas! Din lärare får möjlighet att anpassa lektionerna efter vad just du behöver, och därför har vi genom åren sett enorma framsteg hos våra privatlektionselever här på Sinclairs!',
 										}),
-										Object(F.jsx)('div', {
+										Object(H.jsx)('div', {
 											style: { padding: 20 },
-											children: Object(F.jsx)(M, {
+											children: Object(H.jsx)(E, {
 												onClick: () => e.onNav('book'),
 												variant: 'contained',
 												disableRipple: !0,
@@ -263,15 +268,15 @@
 										}),
 									],
 								}),
-								Object(F.jsxs)('div', {
+								Object(H.jsxs)('div', {
 									className: t.area,
 									style: { flexDirection: 'column', paddingBottom: 50 },
 									children: [
-										Object(F.jsx)('div', {
+										Object(H.jsx)('div', {
 											style: { width: '100%', marginTop: 70, fontSize: 30, fontWeight: 500 },
 											children: 'VI ERBJUDER PRIVATLEKTIONER INOM BLAND ANNAT',
 										}),
-										Object(F.jsxs)('div', {
+										Object(H.jsxs)('div', {
 											style: {
 												display: 'flex',
 												justifyContent: 'space-between',
@@ -280,16 +285,16 @@
 												marginTop: 20,
 											},
 											children: [
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													className: t.middleBox,
 													children: [
-														Object(F.jsx)('img', {
+														Object(H.jsx)('img', {
 															style: { position: 'absolute' },
 															width: '100%',
 															height: '100%',
 															src: './images/front-page-1.avif',
 														}),
-														Object(F.jsx)('div', {
+														Object(H.jsx)('div', {
 															style: {
 																color: '#fff',
 																fontWeight: 'bolder',
@@ -301,16 +306,16 @@
 														}),
 													],
 												}),
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													className: t.middleBox,
 													children: [
-														Object(F.jsx)('img', {
+														Object(H.jsx)('img', {
 															style: { position: 'absolute' },
 															width: '100%',
 															height: '100%',
 															src: './images/front-page-2.avif',
 														}),
-														Object(F.jsx)('div', {
+														Object(H.jsx)('div', {
 															style: {
 																color: '#fff',
 																fontWeight: 'bolder',
@@ -322,16 +327,16 @@
 														}),
 													],
 												}),
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													className: t.middleBox,
 													children: [
-														Object(F.jsx)('img', {
+														Object(H.jsx)('img', {
 															style: { position: 'absolute' },
 															width: '100%',
 															height: '100%',
 															src: './images/front-page-3.avif',
 														}),
-														Object(F.jsx)('div', {
+														Object(H.jsx)('div', {
 															style: {
 																color: '#fff',
 																fontWeight: 'bolder',
@@ -347,11 +352,11 @@
 										}),
 									],
 								}),
-								Object(F.jsxs)('div', {
+								Object(H.jsxs)('div', {
 									className: t.area,
 									style: { justifyContent: 'space-between', marginTop: 200 },
 									children: [
-										Object(F.jsx)('div', {
+										Object(H.jsx)('div', {
 											style: {
 												flex: 0.4,
 												height: 400,
@@ -361,17 +366,17 @@
 												alignItems: 'center',
 												position: 'relative',
 											},
-											children: Object(F.jsx)('img', {
+											children: Object(H.jsx)('img', {
 												style: { position: 'absolute' },
 												width: '100%',
 												height: '100%',
 												src: './images/front-page-4.avif',
 											}),
 										}),
-										Object(F.jsxs)('div', {
+										Object(H.jsxs)('div', {
 											style: { flex: 0.45, display: 'flex', flexDirection: 'column' },
 											children: [
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: {
 														textTransform: 'uppercase',
 														fontSize: 30,
@@ -380,22 +385,22 @@
 													},
 													children: 'Paketerbjudanden',
 												}),
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: { lineHeight: 1.3 },
 													children:
 														'Vi på Sinclairs ger dig möjligheten att boka paket med 5, 10 eller 20 privatlektioner. Detta ger dig som kund ett bättre pris per tillfälle, och möjliggör även för dig och din lärare att lägga upp en bättre plan för att nå maximalt resultat. Ska det kanske även stå något om att kunna använda paketet i både solo, duo och grupp eller något liknande?',
 												}),
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													style: { marginTop: 30 },
 													children: [
-														Object(F.jsx)(M, {
+														Object(H.jsx)(E, {
 															variant: 'contained',
 															disableRipple: !0,
 															onClick: () => e.onNav('price'),
 															sx: { textTransform: 'uppercase', width: 250, height: 45, fontSize: 20 },
 															children: 'Köp paket',
 														}),
-														Object(F.jsx)(L, {
+														Object(H.jsx)(M, {
 															variant: 'contained',
 															disableRipple: !0,
 															onClick: () => e.onNav('price'),
@@ -418,28 +423,28 @@
 						});
 					}),
 				),
-				$ = i(786),
-				U = i(761),
+				U = i(786),
+				G = i(761),
 				K = i(762),
-				G = i(763),
+				_ = i(763),
 				J = i(764),
-				_ = i(765),
-				Y = i(766),
-				q = i(314),
-				X = (i(697), i(706)),
-				Q = i(788),
-				Z = i(798),
-				ee = i(782),
-				te = i(790),
-				ie = i(772),
-				ne = i(780),
-				re = i(783),
-				oe = i(773),
-				le = i(793),
-				ae = i(784),
-				se = i(799),
-				de = i(767);
-			function ce(e, t) {
+				Y = i(765),
+				q = i(766),
+				X = i(329),
+				Q = (i(708), i(717)),
+				Z = i(788),
+				ee = i(798),
+				te = i(782),
+				ie = i(790),
+				ne = i(772),
+				re = i(780),
+				oe = i(783),
+				le = i(773),
+				ae = i(793),
+				se = i(784),
+				de = i(799),
+				ce = i(767);
+			function pe(e, t) {
 				return (
 					(function (e) {
 						if (Array.isArray(e)) return e;
@@ -467,11 +472,11 @@
 					})(e, t) ||
 					(function (e, t) {
 						if (!e) return;
-						if ('string' == typeof e) return pe(e, t);
+						if ('string' == typeof e) return be(e, t);
 						var i = Object.prototype.toString.call(e).slice(8, -1);
 						'Object' === i && e.constructor && (i = e.constructor.name);
 						if ('Map' === i || 'Set' === i) return Array.from(e);
-						if ('Arguments' === i || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(i)) return pe(e, t);
+						if ('Arguments' === i || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(i)) return be(e, t);
 					})(e, t) ||
 					(function () {
 						throw new TypeError(
@@ -480,12 +485,12 @@
 					})()
 				);
 			}
-			function pe(e, t) {
+			function be(e, t) {
 				(null == t || t > e.length) && (t = e.length);
 				for (var i = 0, n = new Array(t); i < t; i++) n[i] = e[i];
 				return n;
 			}
-			const he = Object(E.a)(() => ({
+			const he = Object(F.a)(() => ({
 					root: { display: 'flex', justifyContent: 'space-between' },
 					optionArea: {
 						flex: 0.2,
@@ -550,7 +555,7 @@
 						pointerEvents: 'unset !important',
 					},
 				})),
-				be = [
+				xe = [
 					{ id: 1, name: 'Borlänge' },
 					{ id: 2, name: 'Falun' },
 					{ id: 3, name: 'Leksand' },
@@ -559,7 +564,7 @@
 					{ id: 6, name: 'Solna' },
 					{ id: 7, name: 'Västra Frölunda' },
 				],
-				xe = [
+				je = [
 					{ id: 1, name: 'Kitty' },
 					{ id: 2, name: 'Roomba' },
 					{ id: 3, name: 'Swing' },
@@ -568,7 +573,7 @@
 					{ id: 6, name: 'Jazz' },
 					{ id: 7, name: 'Power Push' },
 				],
-				je = [
+				fe = [
 					{ id: 1, name: 'Sven-Lasse' },
 					{ id: 2, name: 'Bengt-Göran' },
 					{ id: 3, name: 'Lise-Lottle' },
@@ -577,11 +582,11 @@
 					{ id: 6, name: 'Gun-Britt' },
 					{ id: 7, name: 'Marie-Louise' },
 				],
-				fe = (e, t, i) => ({
+				ge = (e, t, i) => ({
 					fontWeight: -1 === t.indexOf(e) ? i.typography.fontWeightRegular : i.typography.fontWeightMedium,
 				}),
-				ge = { PaperProps: { style: { maxHeight: 224, width: 250 } } };
-			var ue = Object(w.c)(
+				ue = { PaperProps: { style: { maxHeight: 224, width: 250 } } };
+			var me = Object(k.c)(
 					Object(a.c)(
 						function (e) {
 							return { loggedIn: e.account.loggedIn };
@@ -591,63 +596,63 @@
 						},
 					)((e) => {
 						const t = he(),
-							i = Object(X.a)(),
-							r = ce(Object(n.useState)('monthly'), 2),
+							i = Object(Q.a)(),
+							r = pe(Object(n.useState)('monthly'), 2),
 							o = r[0],
 							l = r[1],
-							a = ce(Object(n.useState)(''), 2),
+							a = pe(Object(n.useState)(''), 2),
 							s = a[0],
 							d = a[1],
-							c = ce(Object(n.useState)(''), 2),
+							c = pe(Object(n.useState)(''), 2),
 							p = c[0],
-							h = c[1],
-							b = ce(Object(n.useState)(''), 2),
-							x = b[0],
-							j = b[1],
+							b = c[1],
+							h = pe(Object(n.useState)(''), 2),
+							x = h[0],
+							j = h[1],
 							f = new Date(),
-							g = ce(Object(n.useState)(f.getMonth()), 2),
+							g = pe(Object(n.useState)(f.getMonth()), 2),
 							u = g[0],
 							m = g[1],
-							y = ce(Object(n.useState)(f.getFullYear()), 2),
+							y = pe(Object(n.useState)(f.getFullYear()), 2),
 							O = y[0],
 							v = y[1],
-							k = ce(Object(n.useState)(), 2),
-							w = k[0],
-							S = k[1],
-							C = ce(Object(n.useState)([]), 2),
+							w = pe(Object(n.useState)(), 2),
+							k = w[0],
+							S = w[1],
+							C = pe(Object(n.useState)([]), 2),
 							I = C[0],
 							T = C[1],
-							D = ce(Object(n.useState)(), 2),
+							D = pe(Object(n.useState)(), 2),
 							z = D[0],
 							B = D[1],
-							N = ce(Object(n.useState)(!1), 2),
+							N = pe(Object(n.useState)(!1), 2),
 							R = N[0],
 							A = N[1],
-							W = ce(Object(n.useState)(!1), 2),
-							E = W[0],
-							H = W[1],
-							V = ce(Object(n.useState)(!1), 2),
-							pe = V[0],
-							ue = V[1],
-							me = ce(Object(n.useState)(''), 2),
+							P = pe(Object(n.useState)(!1), 2),
+							W = P[0],
+							F = P[1],
+							$ = pe(Object(n.useState)(!1), 2),
+							V = $[0],
+							be = $[1],
+							me = pe(Object(n.useState)(''), 2),
 							ye = me[0],
 							Oe = me[1],
-							ve = ce(Object(n.useState)(''), 2),
-							ke = ve[0],
-							we = ve[1],
-							Se = ce(Object(n.useState)(!1), 2),
+							ve = pe(Object(n.useState)(''), 2),
+							we = ve[0],
+							ke = ve[1],
+							Se = pe(Object(n.useState)(!1), 2),
 							Ce = Se[0],
 							Ie = Se[1],
-							Te = ce(Object(n.useState)(-1), 2),
+							Te = pe(Object(n.useState)(-1), 2),
 							De = Te[0],
 							ze = Te[1],
-							Be = ce(Object(n.useState)(!1), 2),
+							Be = pe(Object(n.useState)(!1), 2),
 							Ne = Be[0],
 							Re = Be[1],
 							Ae = [1, 2, 3, 4, 5],
-							We = [1, 2, 3, 4, 5, 6, 7];
+							Pe = [1, 2, 3, 4, 5, 6, 7];
 						Object(n.useEffect)(() => {
-							Pe();
+							We();
 						}, [u]),
 							Object(n.useEffect)(() => {
 								e.loggedIn && !R && z && A(!0);
@@ -662,38 +667,38 @@
 									};
 								}
 							}, [De]);
-						const Pe = () => {
+						const We = () => {
 								const e = new Date();
 								e.setFullYear(O, u);
-								const t = Object(U.a)(e),
+								const t = Object(G.a)(e),
 									i = Object(K.a)(t);
 								console.log('Start of month: ', t);
 								const n = [],
-									r = Object(G.a)(Object(J.a)(e, 1)),
-									o = Object(G.a)(e);
+									r = Object(_.a)(Object(J.a)(e, 1)),
+									o = Object(_.a)(e);
 								for (let t = 0; t < i - 1; t++)
 									n.push({
-										month: Object(_.a)(Object(J.a)(e, 1)),
-										year: Object(Y.a)(Object(J.a)(e, 1)),
+										month: Object(Y.a)(Object(J.a)(e, 1)),
+										year: Object(q.a)(Object(J.a)(e, 1)),
 										date: r - t,
-										teacher: je[Math.floor(Math.random() * (je.length - 0) + 0)],
+										teacher: fe[Math.floor(Math.random() * (fe.length - 0) + 0)],
 									});
 								for (let t = 0; t < o; t++)
 									n.push({
-										month: Object(_.a)(e),
-										year: Object(Y.a)(e),
+										month: Object(Y.a)(e),
+										year: Object(q.a)(e),
 										date: t + 1,
-										teacher: je[Math.floor(Math.random() * (je.length - 0) + 0)],
+										teacher: fe[Math.floor(Math.random() * (fe.length - 0) + 0)],
 									});
 								console.log(n);
 								let l = 0;
 								for (; n.length < 36; )
 									l++,
 										n.push({
-											month: Object(_.a)(Object(q.a)(e, 1)),
-											year: Object(Y.a)(Object(q.a)(e, 1)),
+											month: Object(Y.a)(Object(X.a)(e, 1)),
+											year: Object(q.a)(Object(X.a)(e, 1)),
 											date: l,
-											teacher: je[Math.floor(Math.random() * (je.length - 0) + 0)],
+											teacher: fe[Math.floor(Math.random() * (fe.length - 0) + 0)],
 										});
 								T(n);
 							},
@@ -705,11 +710,11 @@
 								return `${t}-${i < 10 ? '0' : ''}${i}-${n < 10 ? '0' : ''}${n}`;
 							},
 							Me = (e) => {
-								S(w + e);
+								S(k + e);
 							},
 							Ee = (e) => {
 								let t = new Date();
-								t.setFullYear(O, u), (t = Object(q.a)(t, e)), m(t.getMonth()), v(t.getFullYear());
+								t.setFullYear(O, u), (t = Object(X.a)(t, e)), m(t.getMonth()), v(t.getFullYear());
 							},
 							Fe = () => {
 								switch (u) {
@@ -743,25 +748,25 @@
 								if (Math.random() < 0.7) return;
 								const n = 11 + 2 * i,
 									r = Math.random() > 0.77;
-								return Object(F.jsxs)('div', {
+								return Object(H.jsxs)('div', {
 									className: t.weekOption,
 									style: {
 										cursor: r ? 'default' : 'pointer',
 										backgroundColor: r ? '#e0b0b0a3' : '#c1e0b0',
 										color: r ? '#b45a5a' : '#000',
 									},
-									onClick: () => (r ? null : $e(e, i)),
+									onClick: () => (r ? null : Ve(e, i)),
 									children: [
-										Object(F.jsx)('span', { style: { fontSize: 16 }, children: n + ':00' }),
+										Object(H.jsx)('span', { style: { fontSize: 16 }, children: n + ':00' }),
 										r &&
-											Object(F.jsx)('span', {
+											Object(H.jsx)('span', {
 												style: { textTransform: 'uppercase', fontSize: 12 },
 												children: 'Bokad',
 											}),
 									],
 								});
 							},
-							Ve = () => {
+							$e = () => {
 								const e = z.fullDate,
 									t = e.date;
 								return `${(() => {
@@ -810,7 +815,7 @@
 									}
 								})(e.month)} ${e.year}`;
 							},
-							$e = (e, t) => {
+							Ve = (e, t) => {
 								const i = 11 + 2 * t,
 									n = {
 										fullDate: e,
@@ -824,7 +829,7 @@
 							},
 							Ue = Object(n.useMemo)(
 								() =>
-									Object(F.jsx)('div', {
+									Object(H.jsx)('div', {
 										className: t.timeBody,
 										style: {
 											borderLeft: '1px solid black',
@@ -833,7 +838,7 @@
 											borderBottomRightRadius: 12,
 										},
 										children: Ae.map((e, i) =>
-											Object(F.jsx)(
+											Object(H.jsx)(
 												'div',
 												{
 													className: t.timeRow,
@@ -846,9 +851,9 @@
 																	borderBottomRightRadius: 12,
 															  }
 															: {},
-													children: We.map((e, n) => {
+													children: Pe.map((e, n) => {
 														const r = I[7 * i + n];
-														return Object(F.jsx)(
+														return Object(H.jsx)(
 															'div',
 															{
 																className: t.timeCol,
@@ -860,7 +865,7 @@
 																	borderBottom: 'none',
 																	borderTop: 'none',
 																},
-																children: Object(F.jsx)('div', {
+																children: Object(H.jsx)('div', {
 																	style: {
 																		display: 'flex',
 																		justifyContent: 'center',
@@ -879,36 +884,36 @@
 											),
 										),
 									}),
-								[w, o, x],
+								[k, o, x],
 							),
-							Ke = () =>
-								Object(F.jsxs)('div', {
+							Ge = () =>
+								Object(H.jsxs)('div', {
 									style: { width: '50%', display: 'flex', flexDirection: 'column' },
 									children: [
-										Object(F.jsx)('div', {
+										Object(H.jsx)('div', {
 											style: { fontSize: 36, textTransform: 'uppercase', paddingBottom: 12 },
 											children: 'Betalning',
 										}),
-										Object(F.jsx)(ie.a, {}),
-										Object(F.jsxs)(oe.a, {
+										Object(H.jsx)(ne.a, {}),
+										Object(H.jsxs)(le.a, {
 											value: ye,
 											onChange: (e) => Oe(e.target.value),
 											children: [
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: { margin: '12px 0px' },
-													children: Object(F.jsx)(le.a, {
+													children: Object(H.jsx)(ae.a, {
 														value: 'buy_only_class',
-														control: Object(F.jsx)(re.a, {
+														control: Object(H.jsx)(oe.a, {
 															sx: { color: '#9a9a9a', '&.Mui-checked': { color: '#676767' } },
 														}),
 														label: 'Betala endast denna lektion - 1337 kr',
 													}),
 												}),
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: { margin: '12px 0px' },
-													children: Object(F.jsx)(le.a, {
+													children: Object(H.jsx)(ae.a, {
 														value: 'buy_package_deal',
-														control: Object(F.jsx)(re.a, {
+														control: Object(H.jsx)(oe.a, {
 															sx: { color: '#9a9a9a', '&.Mui-checked': { color: '#676767' } },
 														}),
 														label: 'Köp paket',
@@ -916,17 +921,17 @@
 												}),
 											],
 										}),
-										Object(F.jsx)(ie.a, {}),
-										Object(F.jsx)('div', {
+										Object(H.jsx)(ne.a, {}),
+										Object(H.jsx)('div', {
 											style: { marginTop: 50, fontSize: 22, fontWeight: 'bold', paddingBottom: 12 },
 											children: 'Välj betalningssätt',
 										}),
-										Object(F.jsxs)(oe.a, {
-											value: ke,
-											onChange: (e) => we(e.target.value),
+										Object(H.jsxs)(le.a, {
+											value: we,
+											onChange: (e) => ke(e.target.value),
 											style: { paddingBottom: 40 },
 											children: [
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: {
 														marginTop: 25,
 														textTransform: 'uppercase',
@@ -939,15 +944,15 @@
 														display: 'flex',
 														alignItems: 'center',
 													},
-													children: Object(F.jsx)(le.a, {
+													children: Object(H.jsx)(ae.a, {
 														value: 'Swish',
-														control: Object(F.jsx)(re.a, {
+														control: Object(H.jsx)(oe.a, {
 															sx: { color: '#9a9a9a', '&.Mui-checked': { color: '#676767' } },
 														}),
 														label: 'Swish',
 													}),
 												}),
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: {
 														marginTop: 10,
 														textTransform: 'uppercase',
@@ -960,15 +965,15 @@
 														display: 'flex',
 														alignItems: 'center',
 													},
-													children: Object(F.jsx)(le.a, {
+													children: Object(H.jsx)(ae.a, {
 														value: 'Kort',
-														control: Object(F.jsx)(re.a, {
+														control: Object(H.jsx)(oe.a, {
 															sx: { color: '#9a9a9a', '&.Mui-checked': { color: '#676767' } },
 														}),
 														label: 'Kort',
 													}),
 												}),
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: {
 														marginTop: 10,
 														textTransform: 'uppercase',
@@ -981,9 +986,9 @@
 														display: 'flex',
 														alignItems: 'center',
 													},
-													children: Object(F.jsx)(le.a, {
+													children: Object(H.jsx)(ae.a, {
 														value: 'Klarna',
-														control: Object(F.jsx)(re.a, {
+														control: Object(H.jsx)(oe.a, {
 															sx: { color: '#9a9a9a', '&.Mui-checked': { color: '#676767' } },
 														}),
 														label: 'Klarna',
@@ -991,52 +996,52 @@
 												}),
 											],
 										}),
-										Object(F.jsx)(ie.a, {}),
-										Object(F.jsx)('div', {
+										Object(H.jsx)(ne.a, {}),
+										Object(H.jsx)('div', {
 											style: { marginTop: 20, fontSize: 22, fontWeight: 'bold', paddingBottom: 40 },
 											children: 'Villkor',
 										}),
-										Object(F.jsxs)('div', {
+										Object(H.jsxs)('div', {
 											style: { display: 'flex', flexDirection: 'column', marginLeft: 37 },
 											children: [
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: { fontWeight: 'bold', paddingBottom: 12 },
 													children: 'Bokningsvillkor Sinclairs',
 												}),
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													children:
 														'Avbokningar ska ske senast 24 timmar före lektionen. I annat fall debiteras lektionen i sin helhet.',
 												}),
 											],
 										}),
-										Object(F.jsx)('div', {
+										Object(H.jsx)('div', {
 											style: { paddingTop: 30 },
-											children: Object(F.jsx)(le.a, {
-												control: Object(F.jsx)(ae.a, { checked: Ce, onChange: () => Ie(!Ce) }),
+											children: Object(H.jsx)(ae.a, {
+												control: Object(H.jsx)(se.a, { checked: Ce, onChange: () => Ie(!Ce) }),
 												label: 'Jag accepterar bokningsvillkoren',
 											}),
 										}),
-										Object(F.jsx)('div', {
+										Object(H.jsx)('div', {
 											style: { width: '100%', display: 'flex', justifyContent: 'center', marginTop: 70 },
-											children: Object(F.jsx)(M, {
+											children: Object(H.jsx)(E, {
 												onClick: () => {
-													ue(!0), ze(0), window.scrollTo(0, 0);
+													be(!0), ze(0), window.scrollTo(0, 0);
 												},
 												variant: 'contained',
 												disableRipple: !0,
 												classes: { disabled: t.disabledButton },
-												disabled: !Ce || !ye || !ke,
+												disabled: !Ce || !ye || !we,
 												sx: { padding: '6px 12px', minWidth: '40%', fontSize: 22 },
 												children: 'Slutför köp',
 											}),
 										}),
-										Object(F.jsx)('div', {
+										Object(H.jsx)('div', {
 											onClick: () =>
 												(() => {
-													ze(-1), Re(!1), d(''), h(''), j(''), Ie(!1), H(!1), ue(!1), A(!1), B(), T([]);
+													ze(-1), Re(!1), d(''), b(''), j(''), Ie(!1), F(!1), be(!1), A(!1), B(), T([]);
 													const e = new Date(),
-														t = Object($.a)(e);
-													S(t - 1), l('monthly'), v(e.getFullYear()), m(e.getMonth()), Pe();
+														t = Object(U.a)(e);
+													S(t - 1), l('monthly'), v(e.getFullYear()), m(e.getMonth()), We();
 												})(),
 											style: {
 												textDecoration: 'underline',
@@ -1051,10 +1056,10 @@
 										}),
 									],
 								}),
-							Ge = () =>
-								pe
+							Ke = () =>
+								V
 									? De < 100
-										? Object(F.jsxs)('div', {
+										? Object(H.jsxs)('div', {
 												style: {
 													width: '100vw',
 													display: 'flex',
@@ -1068,20 +1073,20 @@
 													flexDirection: 'column',
 												},
 												children: [
-													Object(F.jsx)(se.a, { size: 177, thickness: 7, color: 'inherit' }),
-													Object(F.jsx)('div', {
+													Object(H.jsx)(de.a, { size: 177, thickness: 7, color: 'inherit' }),
+													Object(H.jsx)('div', {
 														style: { marginTop: 30, fontSize: 20 },
 														children: 'Verifierar betalning ...',
 													}),
 												],
 										  })
-										: Object(F.jsx)(de.a, {
+										: Object(H.jsx)(ce.a, {
 												in: Ne,
 												timeout: 1777,
-												children: Object(F.jsxs)('div', {
+												children: Object(H.jsxs)('div', {
 													style: { width: '50%', display: 'flex', flexDirection: 'column' },
 													children: [
-														Object(F.jsx)('div', {
+														Object(H.jsx)('div', {
 															style: {
 																fontSize: 36,
 																textTransform: 'uppercase',
@@ -1091,18 +1096,18 @@
 															},
 															children: 'Tack för ditt köp!',
 														}),
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: { marginTop: 20, width: '100%', textAlign: 'center' },
 															children: [
 																'Du får nu en bokningsbekräftelse och ett kvitto via e-mail. Du hittar även dina bokade privatlektioner under fliken: “Mina sidor -> ',
-																Object(F.jsx)('span', {
+																Object(H.jsx)('span', {
 																	style: { color: '#bf4885' },
 																	children: 'Mina bokningar',
 																}),
 																'”.',
 															],
 														}),
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: {
 																backgroundColor: '#f9f9f9',
 																border: '1px solid #d9d9d9',
@@ -1113,54 +1118,54 @@
 																flexDirection: 'column',
 															},
 															children: [
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: { fontWeight: 'bold', textTransform: 'uppercase' },
 																	children: 'Bokningsbekräftelse',
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { padding: '20px 0px', paddingBottom: 12 },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Lärare: ',
 																		}),
 																		z.teacher.name,
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { padding: '12px 0px' },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Dansstil: ',
 																		}),
 																		p,
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { padding: '12px 0px' },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Datum: ',
 																		}),
-																		Ve(),
+																		$e(),
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { padding: '12px 0px' },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Tid: ',
 																		}),
 																		z.time,
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { padding: '12px 0px' },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Ort: ',
 																		}),
@@ -1169,7 +1174,7 @@
 																}),
 															],
 														}),
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: {
 																backgroundColor: '#f9f9f9',
 																border: '1px solid #d9d9d9',
@@ -1180,24 +1185,24 @@
 																flexDirection: 'column',
 															},
 															children: [
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: { fontWeight: 'bold', textTransform: 'uppercase' },
 																	children: 'Kvitto på köp',
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { padding: '20px 0px', paddingBottom: 12 },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Summa: ',
 																		}),
 																		'1337 kr',
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { padding: '12px 0px' },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Specifikation: ',
 																		}),
@@ -1205,21 +1210,21 @@
 																		p,
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { padding: '12px 0px' },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Betalningssätt: ',
 																		}),
 																		' ',
-																		ke,
+																		we,
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { padding: '12px 0px' },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Datum: ',
 																		}),
@@ -1232,17 +1237,17 @@
 													],
 												}),
 										  })
-									: E
-									? Ke()
-									: Object(F.jsxs)('div', {
+									: W
+									? Ge()
+									: Object(H.jsxs)('div', {
 											style: { width: '50%', display: 'flex', flexDirection: 'column' },
 											children: [
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: { fontSize: 36, textTransform: 'uppercase', paddingBottom: 12 },
 													children: 'Bokning',
 												}),
-												Object(F.jsx)(ie.a, {}),
-												Object(F.jsxs)('div', {
+												Object(H.jsx)(ne.a, {}),
+												Object(H.jsxs)('div', {
 													style: {
 														marginTop: 12,
 														display: 'flex',
@@ -1252,30 +1257,30 @@
 														padding: '10px 70px',
 													},
 													children: [
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: { padding: 12, display: 'flex', alignItems: 'center' },
 															children: [
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { flex: 0.58 },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Lärare:',
 																		}),
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { paddingLeft: 12 },
 																			children: z.teacher.name,
 																		}),
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { flex: 0.38 },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Tid:',
 																		}),
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { paddingLeft: 12 },
 																			children: z.time,
 																		}),
@@ -1283,30 +1288,30 @@
 																}),
 															],
 														}),
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: { padding: 12, display: 'flex', alignItems: 'center' },
 															children: [
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { flex: 0.58 },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Datum:',
 																		}),
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { paddingLeft: 12 },
-																			children: Ve(),
+																			children: $e(),
 																		}),
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { flex: 0.38 },
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { fontWeight: 'bold' },
 																			children: 'Ort:',
 																		}),
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { paddingLeft: 12 },
 																			children: s,
 																		}),
@@ -1316,7 +1321,7 @@
 														}),
 													],
 												}),
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													style: {
 														marginTop: 30,
 														display: 'flex',
@@ -1324,12 +1329,12 @@
 														width: '100%',
 													},
 													children: [
-														Object(F.jsx)('span', {
+														Object(H.jsx)('span', {
 															style: { paddingBottom: 7 },
 															children: 'Vad vill du/ni dansa på lektionen?',
 														}),
-														Object(F.jsx)('div', {
-															children: Object(F.jsx)(ne.a, {
+														Object(H.jsx)('div', {
+															children: Object(H.jsx)(re.a, {
 																id: 'outlined-basic',
 																variant: 'outlined',
 																style: { width: '100%' },
@@ -1338,7 +1343,7 @@
 														}),
 													],
 												}),
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													style: {
 														marginTop: 30,
 														display: 'flex',
@@ -1346,12 +1351,12 @@
 														width: '100%',
 													},
 													children: [
-														Object(F.jsx)('span', {
+														Object(H.jsx)('span', {
 															style: { paddingBottom: 7 },
 															children: 'Övrig kommentar till läraren',
 														}),
-														Object(F.jsx)('div', {
-															children: Object(F.jsx)(ne.a, {
+														Object(H.jsx)('div', {
+															children: Object(H.jsx)(re.a, {
 																id: 'outlined-basic',
 																variant: 'outlined',
 																style: { width: '100%' },
@@ -1360,7 +1365,7 @@
 														}),
 													],
 												}),
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													style: {
 														marginTop: 120,
 														display: 'flex',
@@ -1368,8 +1373,8 @@
 														width: '100%',
 													},
 													children: [
-														Object(F.jsx)('div', {
-															children: Object(F.jsx)(L, {
+														Object(H.jsx)('div', {
+															children: Object(H.jsx)(M, {
 																onClick: () => A(!1),
 																variant: 'outlined',
 																disableRipple: !0,
@@ -1377,9 +1382,9 @@
 																children: '< Tillbaka',
 															}),
 														}),
-														Object(F.jsx)('div', {
-															children: Object(F.jsx)(M, {
-																onClick: () => H(!0),
+														Object(H.jsx)('div', {
+															children: Object(H.jsx)(E, {
+																onClick: () => F(!0),
 																variant: 'contained',
 																disableRipple: !0,
 																sx: { padding: '6px 12px', minWidth: 120 },
@@ -1390,19 +1395,19 @@
 												}),
 											],
 									  });
-						return Object(F.jsx)('div', {
+						return Object(H.jsx)('div', {
 							className: t.root,
 							children: R
-								? Object(F.jsx)('div', {
+								? Object(H.jsx)('div', {
 										style: { width: '100%', minHeight: '80vh', display: 'flex', justifyContent: 'center' },
-										children: Ge(),
+										children: Ke(),
 								  })
-								: Object(F.jsxs)(n.Fragment, {
+								: Object(H.jsxs)(n.Fragment, {
 										children: [
-											Object(F.jsxs)('div', {
+											Object(H.jsxs)('div', {
 												className: t.optionArea,
 												children: [
-													Object(F.jsxs)('div', {
+													Object(H.jsxs)('div', {
 														style: {
 															flex: 0.67,
 															background: '#f3f3f4',
@@ -1413,12 +1418,12 @@
 															border: '1px solid #c4c4c4',
 														},
 														children: [
-															Object(F.jsx)('div', {
+															Object(H.jsx)('div', {
 																className: t.header,
 																style: { textAlign: 'center', textTransform: 'uppercase' },
 																children: 'Filter',
 															}),
-															Object(F.jsxs)('div', {
+															Object(H.jsxs)('div', {
 																style: {
 																	flex: 1,
 																	padding: 17,
@@ -1426,7 +1431,7 @@
 																	flexDirection: 'column',
 																},
 																children: [
-																	Object(F.jsx)('div', {
+																	Object(H.jsx)('div', {
 																		style: {
 																			textTransform: 'uppercase',
 																			fontWeight: 'bold',
@@ -1434,24 +1439,24 @@
 																		},
 																		children: 'Ort',
 																	}),
-																	Object(F.jsx)('div', {
+																	Object(H.jsx)('div', {
 																		className: t.slidePicker,
-																		children: Object(F.jsx)(Z.a, {
+																		children: Object(H.jsx)(ee.a, {
 																			fullWidth: !0,
-																			children: Object(F.jsx)(ee.a, {
+																			children: Object(H.jsx)(te.a, {
 																				value: s,
 																				onChange: (e) => d(e.target.value),
 																				displayEmpty: !0,
 																				className: t.select,
-																				input: Object(F.jsx)(te.a, {}),
+																				input: Object(H.jsx)(ie.a, {}),
 																				renderValue: (e) => e,
-																				MenuProps: ge,
-																				children: be.map((e) =>
-																					Object(F.jsx)(
-																						Q.a,
+																				MenuProps: ue,
+																				children: xe.map((e) =>
+																					Object(H.jsx)(
+																						Z.a,
 																						{
 																							value: e.name,
-																							style: fe(e.name, s, i),
+																							style: ge(e.name, s, i),
 																							children: e.name,
 																						},
 																						e.id,
@@ -1461,9 +1466,9 @@
 																		}),
 																	}),
 																	s.length > 0 &&
-																		Object(F.jsxs)(n.Fragment, {
+																		Object(H.jsxs)(n.Fragment, {
 																			children: [
-																				Object(F.jsx)('div', {
+																				Object(H.jsx)('div', {
 																					style: {
 																						textTransform: 'uppercase',
 																						fontWeight: 'bold',
@@ -1471,29 +1476,29 @@
 																					},
 																					children: 'Dans',
 																				}),
-																				Object(F.jsx)('div', {
+																				Object(H.jsx)('div', {
 																					className: t.slidePicker,
-																					children: Object(F.jsx)(Z.a, {
+																					children: Object(H.jsx)(ee.a, {
 																						fullWidth: !0,
-																						children: Object(F.jsxs)(ee.a, {
+																						children: Object(H.jsxs)(te.a, {
 																							value: p,
-																							onChange: (e) => h(e.target.value),
+																							onChange: (e) => b(e.target.value),
 																							displayEmpty: !0,
 																							className: t.select,
-																							input: Object(F.jsx)(te.a, {}),
+																							input: Object(H.jsx)(ie.a, {}),
 																							renderValue: (e) => e,
-																							MenuProps: ge,
+																							MenuProps: ue,
 																							children: [
-																								Object(F.jsx)(Q.a, {
+																								Object(H.jsx)(Z.a, {
 																									value: '',
 																									children: 'Dans',
 																								}),
-																								xe.map((e) =>
-																									Object(F.jsx)(
-																										Q.a,
+																								je.map((e) =>
+																									Object(H.jsx)(
+																										Z.a,
 																										{
 																											value: e.name,
-																											style: fe(e.name, p, i),
+																											style: ge(e.name, p, i),
 																											children: e.name,
 																										},
 																										e.id,
@@ -1506,9 +1511,9 @@
 																			],
 																		}),
 																	p.length > 0 &&
-																		Object(F.jsxs)(n.Fragment, {
+																		Object(H.jsxs)(n.Fragment, {
 																			children: [
-																				Object(F.jsx)('div', {
+																				Object(H.jsx)('div', {
 																					style: {
 																						textTransform: 'uppercase',
 																						fontWeight: 'bold',
@@ -1516,29 +1521,29 @@
 																					},
 																					children: 'Tränare',
 																				}),
-																				Object(F.jsx)('div', {
+																				Object(H.jsx)('div', {
 																					className: t.slidePicker,
-																					children: Object(F.jsx)(Z.a, {
+																					children: Object(H.jsx)(ee.a, {
 																						fullWidth: !0,
-																						children: Object(F.jsxs)(ee.a, {
+																						children: Object(H.jsxs)(te.a, {
 																							value: x,
 																							onChange: (e) => j(e.target.value),
 																							displayEmpty: !0,
 																							className: t.select,
-																							input: Object(F.jsx)(te.a, {}),
+																							input: Object(H.jsx)(ie.a, {}),
 																							renderValue: (e) => e,
-																							MenuProps: ge,
+																							MenuProps: ue,
 																							children: [
-																								Object(F.jsx)(Q.a, {
+																								Object(H.jsx)(Z.a, {
 																									value: '',
 																									children: 'Lärare',
 																								}),
-																								je.map((e) =>
-																									Object(F.jsx)(
-																										Q.a,
+																								fe.map((e) =>
+																									Object(H.jsx)(
+																										Z.a,
 																										{
 																											value: e.name,
-																											style: fe(e.name, p, i),
+																											style: ge(e.name, p, i),
 																											children: e.name,
 																										},
 																										e.id,
@@ -1555,7 +1560,7 @@
 														],
 													}),
 													z &&
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: {
 																flex: 0.32,
 																background: '#c9c9c9',
@@ -1567,12 +1572,12 @@
 																alignItems: 'center',
 															},
 															children: [
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	className: t.header,
 																	style: { textAlign: 'center', textTransform: 'uppercase' },
 																	children: 'Specifikationer',
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: {
 																		width: '90%',
 																		padding: '7px 17px',
@@ -1581,17 +1586,17 @@
 																		alignItems: 'center',
 																	},
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { flex: 0.4, fontWeight: 'bold' },
 																			children: 'Lärare:',
 																		}),
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { flex: 0.6 },
 																			children: z.teacher.name,
 																		}),
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: {
 																		width: '90%',
 																		padding: '7px 17px',
@@ -1600,14 +1605,14 @@
 																		alignItems: 'center',
 																	},
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { flex: 0.4, fontWeight: 'bold' },
 																			children: 'Datum:',
 																		}),
-																		Object(F.jsx)('span', { style: { flex: 0.6 }, children: z.date }),
+																		Object(H.jsx)('span', { style: { flex: 0.6 }, children: z.date }),
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: {
 																		width: '90%',
 																		padding: '7px 17px',
@@ -1617,14 +1622,14 @@
 																		marginBottom: 17,
 																	},
 																	children: [
-																		Object(F.jsx)('span', {
+																		Object(H.jsx)('span', {
 																			style: { flex: 0.4, fontWeight: 'bold' },
 																			children: 'Tid:',
 																		}),
-																		Object(F.jsx)('span', { style: { flex: 0.6 }, children: z.time }),
+																		Object(H.jsx)('span', { style: { flex: 0.6 }, children: z.time }),
 																	],
 																}),
-																Object(F.jsx)(P.a, {
+																Object(H.jsx)(L.a, {
 																	onClick: () => {
 																		e.loggedIn ? A(!0) : e.onLoginOpen();
 																	},
@@ -1645,13 +1650,13 @@
 												],
 											}),
 											s &&
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													className: t.timeArea,
 													children: [
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															className: t.timeOptions,
 															children: [
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: {
 																		display: 'flex',
 																		borderRadius: 12,
@@ -1665,7 +1670,7 @@
 																		userSelect: 'none',
 																	},
 																	children: [
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				fontSize: 40,
 																				fontWeight: 'normal',
@@ -1675,32 +1680,32 @@
 																			children: '<',
 																		}),
 																		'monthly' === o &&
-																			Object(F.jsxs)(n.Fragment, {
+																			Object(H.jsxs)(n.Fragment, {
 																				children: [
-																					Object(F.jsx)('div', {
+																					Object(H.jsx)('div', {
 																						style: { fontSize: 24 },
 																						children: Fe(),
 																					}),
-																					Object(F.jsx)('div', {
+																					Object(H.jsx)('div', {
 																						style: { fontSize: 24 },
 																						children: O,
 																					}),
 																				],
 																			}),
 																		'weekly' === o &&
-																			Object(F.jsxs)(n.Fragment, {
+																			Object(H.jsxs)(n.Fragment, {
 																				children: [
-																					Object(F.jsx)('div', {
+																					Object(H.jsx)('div', {
 																						style: { fontSize: 24, textTransform: 'uppercase' },
 																						children: 'vecka',
 																					}),
-																					Object(F.jsx)('div', {
+																					Object(H.jsx)('div', {
 																						style: { fontSize: 24 },
-																						children: w,
+																						children: k,
 																					}),
 																				],
 																			}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				fontSize: 40,
 																				fontWeight: 'normal',
@@ -1711,7 +1716,7 @@
 																		}),
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: {
 																		display: 'flex',
 																		borderRadius: 12,
@@ -1722,7 +1727,7 @@
 																		height: 30,
 																	},
 																	children: [
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			onClick: () => l('monthly'),
 																			style: {
 																				background: 'monthly' === o ? '#003451' : '#dedede',
@@ -1733,10 +1738,10 @@
 																			},
 																			children: 'Månad',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			onClick: () => {
 																				l('weekly');
-																				const e = Object($.a)(new Date());
+																				const e = Object(U.a)(new Date());
 																				S(e - 1);
 																			},
 																			style: {
@@ -1752,10 +1757,10 @@
 																}),
 															],
 														}),
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															className: t.timeSection,
 															children: [
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	className: t.header,
 																	style: {
 																		display: 'flex',
@@ -1765,56 +1770,56 @@
 																		paddingRight: 0,
 																	},
 																	children: [
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			className: t.headerDays,
 																			children: 'Måndag',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			className: t.headerDays,
 																			children: 'Tisdag',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			className: t.headerDays,
 																			children: 'Onsdag',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			className: t.headerDays,
 																			children: 'Torsdag',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			className: t.headerDays,
 																			children: 'Fredag',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			className: t.headerDays,
 																			children: 'Lördag',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			className: t.headerDays,
 																			children: 'Söndag',
 																		}),
 																	],
 																}),
 																'monthly' === o &&
-																	Object(F.jsx)('div', {
+																	Object(H.jsx)('div', {
 																		className: t.timeBody,
 																		children: Ae.map((e, i) =>
-																			Object(F.jsx)(
+																			Object(H.jsx)(
 																				'div',
 																				{
 																					className: t.timeRow,
-																					children: We.map((e, n) => {
+																					children: Pe.map((e, n) => {
 																						const r = I[7 * i + n];
 																						console.log('X: ', r);
 																						const o = r.month === u;
-																						return Object(F.jsxs)(
+																						return Object(H.jsxs)(
 																							'div',
 																							{
 																								id: 'hover-date-selection-crap',
 																								className: t.timeCol,
 																								onClick: () =>
 																									((e) => {
-																										const t = Object($.a)(
+																										const t = Object(U.a)(
 																											new Date(e.year, e.month, e.date),
 																										);
 																										S(t - 1), l('weekly');
@@ -1824,7 +1829,7 @@
 																								},
 																								children: [
 																									0 === n &&
-																										Object(F.jsx)('div', {
+																										Object(H.jsx)('div', {
 																											style: {
 																												top: 7,
 																												left: 7,
@@ -1835,15 +1840,16 @@
 																											},
 																											children:
 																												'v. ' +
-																												Object($.a)(
+																												(Object(U.a)(
 																													new Date(
 																														r.year,
 																														r.month,
 																														r.date,
 																													),
-																												),
+																												) -
+																													1),
 																										}),
-																									Object(F.jsx)('div', {
+																									Object(H.jsx)('div', {
 																										style: {
 																											top: 7,
 																											right: 7,
@@ -1874,9 +1880,9 @@
 						});
 					}),
 				),
-				me = (i(699), i(317)),
-				ye = i.n(me);
-			function Oe(e, t) {
+				ye = (i(710), i(332)),
+				Oe = i.n(ye);
+			function ve(e, t) {
 				return (
 					(function (e) {
 						if (Array.isArray(e)) return e;
@@ -1904,11 +1910,11 @@
 					})(e, t) ||
 					(function (e, t) {
 						if (!e) return;
-						if ('string' == typeof e) return ve(e, t);
+						if ('string' == typeof e) return we(e, t);
 						var i = Object.prototype.toString.call(e).slice(8, -1);
 						'Object' === i && e.constructor && (i = e.constructor.name);
 						if ('Map' === i || 'Set' === i) return Array.from(e);
-						if ('Arguments' === i || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(i)) return ve(e, t);
+						if ('Arguments' === i || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(i)) return we(e, t);
 					})(e, t) ||
 					(function () {
 						throw new TypeError(
@@ -1917,12 +1923,12 @@
 					})()
 				);
 			}
-			function ve(e, t) {
+			function we(e, t) {
 				(null == t || t > e.length) && (t = e.length);
 				for (var i = 0, n = new Array(t); i < t; i++) n[i] = e[i];
 				return n;
 			}
-			const ke = Object(E.a)(() => ({
+			const ke = Object(F.a)(() => ({
 					root: { display: 'flex', flexDirection: 'column', minHeight: '80vh' },
 					area: { display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' },
 					select: { background: 'white', borderRadius: '12px !important', width: 327 },
@@ -1939,7 +1945,7 @@
 						fontWeight: 'bold',
 					},
 				})),
-				we = [
+				Se = [
 					{ id: 1, name: 'Borlänge' },
 					{ id: 2, name: 'Falun' },
 					{ id: 3, name: 'Leksand' },
@@ -1948,11 +1954,11 @@
 					{ id: 6, name: 'Solna' },
 					{ id: 7, name: 'Västra Frölunda' },
 				],
-				Se = (e, t, i) => ({
+				Ce = (e, t, i) => ({
 					fontWeight: -1 === t.indexOf(e) ? i.typography.fontWeightRegular : i.typography.fontWeightMedium,
 				}),
-				Ce = { PaperProps: { style: { maxHeight: 224, width: 250 } } };
-			var Ie = Object(w.c)(
+				Ie = { PaperProps: { style: { maxHeight: 224, width: 250 } } };
+			var Te = Object(k.c)(
 					Object(a.c)(
 						function (e) {
 							return {};
@@ -1962,14 +1968,14 @@
 						},
 					)((e) => {
 						const t = ke(),
-							i = Object(X.a)(),
-							r = Oe(Object(n.useState)('Stad'), 2),
+							i = Object(Q.a)(),
+							r = ve(Object(n.useState)('Stad'), 2),
 							o = r[0],
 							l = r[1];
-						return Object(F.jsxs)('div', {
+						return Object(H.jsxs)('div', {
 							className: t.root,
 							children: [
-								Object(F.jsxs)('div', {
+								Object(H.jsxs)('div', {
 									style: {
 										display: 'flex',
 										justifyContent: 'space-between',
@@ -1977,23 +1983,23 @@
 										paddingBottom: 27,
 									},
 									children: [
-										Object(F.jsx)('div', {
+										Object(H.jsx)('div', {
 											style: { textTransform: 'uppercase', fontSize: 38, fontWeight: 'bold' },
 											children: 'Prislista personlig danstränare',
 										}),
-										Object(F.jsx)('div', {
-											children: Object(F.jsx)(ee.a, {
+										Object(H.jsx)('div', {
+											children: Object(H.jsx)(te.a, {
 												value: o,
 												onChange: (e) => l(e.target.value),
 												displayEmpty: !0,
 												className: t.select,
-												input: Object(F.jsx)(te.a, {}),
+												input: Object(H.jsx)(ie.a, {}),
 												renderValue: (e) => e,
-												MenuProps: Ce,
-												children: we.map((e) =>
-													Object(F.jsx)(
-														Q.a,
-														{ value: e.name, style: Se(e.name, o, i), children: e.name },
+												MenuProps: Ie,
+												children: Se.map((e) =>
+													Object(H.jsx)(
+														Z.a,
+														{ value: e.name, style: Ce(e.name, o, i), children: e.name },
 														e.id,
 													),
 												),
@@ -2001,35 +2007,35 @@
 										}),
 									],
 								}),
-								Object(F.jsxs)('div', {
+								Object(H.jsxs)('div', {
 									className: t.section,
 									children: [
-										Object(F.jsxs)('div', {
+										Object(H.jsxs)('div', {
 											className: t.header,
 											children: [
 												'Solo- och duolektion (1-2 eveler) - ',
-												Object(F.jsx)('span', {
+												Object(H.jsx)('span', {
 													style: { fontStyle: 'italic', paddingLeft: 7 },
 													children: '45 min',
 												}),
 											],
 										}),
-										Object(F.jsxs)(n.Fragment, {
+										Object(H.jsxs)(n.Fragment, {
 											children: [
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													style: { display: 'flex', marginTop: 27, justifyContent: 'space-between' },
 													children: [
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: { flex: 0.45, display: 'flex', flexDirection: 'column' },
 															children: [
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: { fontWeight: 'bold', fontSize: 24, paddingBottom: 17 },
 																	children: 'Befintlig elev',
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { display: 'flex' },
 																	children: [
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				flex: 0.5,
 																				display: 'flex',
@@ -2040,7 +2046,7 @@
 																			},
 																			children: '1 lektion',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				flex: 0.5,
 																				display: 'flex',
@@ -2053,10 +2059,10 @@
 																		}),
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { display: 'flex' },
 																	children: [
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				flex: 0.5,
 																				display: 'flex',
@@ -2067,7 +2073,7 @@
 																			},
 																			children: '5 lektioner',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				flex: 0.5,
 																				display: 'flex',
@@ -2080,10 +2086,10 @@
 																		}),
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { display: 'flex' },
 																	children: [
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				flex: 0.5,
 																				display: 'flex',
@@ -2094,7 +2100,7 @@
 																			},
 																			children: '10 lektioner*',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				flex: 0.5,
 																				display: 'flex',
@@ -2107,10 +2113,10 @@
 																		}),
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { display: 'flex' },
 																	children: [
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				flex: 0.5,
 																				display: 'flex',
@@ -2121,7 +2127,7 @@
 																			},
 																			children: '20 lektioner*',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				flex: 0.5,
 																				display: 'flex',
@@ -2136,17 +2142,17 @@
 																}),
 															],
 														}),
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: { flex: 0.45, display: 'flex', flexDirection: 'column' },
 															children: [
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: { fontWeight: 'bold', fontSize: 24, paddingBottom: 17 },
 																	children: 'Bröllopsdans',
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: { display: 'flex' },
 																	children: [
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				flex: 0.5,
 																				display: 'flex',
@@ -2157,7 +2163,7 @@
 																			},
 																			children: '1 lektion',
 																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsx)('div', {
 																			style: {
 																				flex: 0.5,
 																				display: 'flex',
@@ -2174,42 +2180,42 @@
 														}),
 													],
 												}),
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: { fontSize: 16, marginTop: 27 },
 													children: '* = innefattar även träningsplanering 30 min, och uppföljning 30 min',
 												}),
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: { fontSize: 16 },
 													children:
 														'** = innefattar även träningsplanering 30 min, och uppföljning 2x30 min',
 												}),
 											],
 										}),
-										Object(F.jsxs)('div', {
+										Object(H.jsxs)('div', {
 											className: t.header,
 											style: { marginTop: 137 },
 											children: [
 												'Grupplektion (fler än 2 elever) - ',
-												Object(F.jsx)('span', {
+												Object(H.jsx)('span', {
 													style: { fontStyle: 'italic', paddingLeft: 7 },
 													children: '60 min',
 												}),
 											],
 										}),
-										Object(F.jsxs)('div', {
+										Object(H.jsxs)('div', {
 											style: { display: 'flex', marginTop: 27, justifyContent: 'space-between' },
 											children: [
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													style: { flex: 0.45, display: 'flex', flexDirection: 'column' },
 													children: [
-														Object(F.jsx)('div', {
+														Object(H.jsx)('div', {
 															style: { fontWeight: 'bold', fontSize: 24, paddingBottom: 17 },
 															children: 'Tävlingsdans',
 														}),
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: { display: 'flex' },
 															children: [
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: {
 																		flex: 0.5,
 																		display: 'flex',
@@ -2220,7 +2226,7 @@
 																	},
 																	children: '1 lektion',
 																}),
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: {
 																		flex: 0.5,
 																		display: 'flex',
@@ -2233,10 +2239,10 @@
 																}),
 															],
 														}),
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: { display: 'flex' },
 															children: [
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: {
 																		flex: 0.5,
 																		display: 'flex',
@@ -2247,7 +2253,7 @@
 																	},
 																	children: '5 lektioner',
 																}),
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: {
 																		flex: 0.5,
 																		display: 'flex',
@@ -2260,10 +2266,10 @@
 																}),
 															],
 														}),
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: { display: 'flex' },
 															children: [
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: {
 																		flex: 0.5,
 																		display: 'flex',
@@ -2274,7 +2280,7 @@
 																	},
 																	children: '10 lektioner',
 																}),
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: {
 																		flex: 0.5,
 																		display: 'flex',
@@ -2289,17 +2295,17 @@
 														}),
 													],
 												}),
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													style: { flex: 0.45, display: 'flex', flexDirection: 'column' },
 													children: [
-														Object(F.jsx)('div', {
+														Object(H.jsx)('div', {
 															style: { fontWeight: 'bold', fontSize: 24, paddingBottom: 17 },
 															children: 'Specialare',
 														}),
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: { display: 'flex' },
 															children: [
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: {
 																		flex: 0.5,
 																		display: 'flex',
@@ -2310,7 +2316,7 @@
 																	},
 																	children: '1 lektion',
 																}),
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: {
 																		flex: 0.5,
 																		display: 'flex',
@@ -2327,36 +2333,36 @@
 												}),
 											],
 										}),
-										Object(F.jsxs)('div', {
+										Object(H.jsxs)('div', {
 											className: t.header,
 											style: { marginTop: 137 },
 											children: [
 												'Dance Show - ',
-												Object(F.jsx)('span', {
+												Object(H.jsx)('span', {
 													style: { fontStyle: 'italic', paddingLeft: 7 },
 													children: '60 min',
 												}),
 											],
 										}),
-										Object(F.jsx)('div', {
+										Object(H.jsx)('div', {
 											style: { paddingTop: 17, paddingBottom: 27, fontSize: 20 },
 											children:
 												'Dance Show är ett showbaserat nummer där eleven dansar ensam på golvet till egen koreografi och musik. Priset inkluderar koreografens förberedelsetid, idé, koreografi, musikklippning samt 5st lektioner. Kostym tillkommer och ombesörjes av eleven. Läraren äger upphovsrätten till numret och har möjlighet att återanvända numret när eleven anses ha slutat använda det.',
 										}),
-										Object(F.jsxs)('div', {
+										Object(H.jsxs)('div', {
 											style: { display: 'flex', marginTop: 27, justifyContent: 'space-between' },
 											children: [
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													style: { flex: 0.45, display: 'flex', flexDirection: 'column' },
 													children: [
-														Object(F.jsx)('div', {
+														Object(H.jsx)('div', {
 															style: { fontWeight: 'bold', fontSize: 24, paddingBottom: 17 },
 															children: '1 Dance Show nummer, 90-180 sekunder',
 														}),
-														Object(F.jsxs)('div', {
+														Object(H.jsxs)('div', {
 															style: { display: 'flex' },
 															children: [
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: {
 																		flex: 0.5,
 																		display: 'flex',
@@ -2367,7 +2373,7 @@
 																	},
 																	children: '5 lektioner',
 																}),
-																Object(F.jsx)('div', {
+																Object(H.jsx)('div', {
 																	style: {
 																		flex: 0.5,
 																		display: 'flex',
@@ -2382,15 +2388,15 @@
 														}),
 													],
 												}),
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: { flex: 0.45, display: 'flex', flexDirection: 'column' },
-													children: Object(F.jsx)('div', {
+													children: Object(H.jsx)('div', {
 														style: { fontWeight: 'bold', fontSize: 24, paddingBottom: 17 },
 													}),
 												}),
 											],
 										}),
-										Object(F.jsxs)('div', {
+										Object(H.jsxs)('div', {
 											style: {
 												marginTop: 177,
 												borderRadius: 10,
@@ -2401,7 +2407,7 @@
 												alignItems: 'center',
 											},
 											children: [
-												Object(F.jsx)('div', {
+												Object(H.jsx)('div', {
 													style: {
 														color: '#8c8c8c',
 														flex: 0.2,
@@ -2409,9 +2415,9 @@
 														alignItems: 'center',
 														justifyContent: 'center',
 													},
-													children: Object(F.jsx)(ye.a, { fontSize: 'large', color: 'inherit' }),
+													children: Object(H.jsx)(Oe.a, { fontSize: 'large', color: 'inherit' }),
 												}),
-												Object(F.jsxs)('div', {
+												Object(H.jsxs)('div', {
 													style: {
 														flex: 0.8,
 														display: 'flex',
@@ -2420,13 +2426,13 @@
 														height: '57%',
 													},
 													children: [
-														Object(F.jsx)('span', {
+														Object(H.jsx)('span', {
 															children: 'Köpt paket kan utnyttjas i upp till 12 månader',
 														}),
-														Object(F.jsx)('span', {
+														Object(H.jsx)('span', {
 															children: 'Paketet kan delbetalas med en tilläggskostnad på 77 kr',
 														}),
-														Object(F.jsx)('span', {
+														Object(H.jsx)('span', {
 															children: 'Återbud inom 24 timmar av avtalad tid debiteras med 277 kr',
 														}),
 													],
@@ -2439,43 +2445,16 @@
 						});
 					}),
 				),
-				Te = i(776),
-				De = i(328),
-				ze = i(802),
-				Be = i(795),
-				Ne = i(796),
-				Re = i(777),
-				Ae = i(775),
-				We = i(714),
-				Pe = i(797),
-				Le = i(789),
-				Me = i(329),
-				Ee = i(778),
-				Fe = i(794),
-				He = i(779),
-				Ve = i(325),
-				$e = i.n(Ve),
-				Ue = i(326),
-				Ke = i.n(Ue),
-				Ge = i(327),
-				Je = i.n(Ge),
-				_e = i(320),
-				Ye = i.n(_e),
-				qe = i(319),
-				Xe = i.n(qe),
-				Qe = i(792),
-				Ze = i(34),
-				et = i(318),
-				tt = i.n(et),
-				it = i(321),
-				nt = i.n(it),
-				rt = i(324),
-				ot = i.n(rt),
-				lt = i(322),
-				at = i.n(lt),
-				st = i(323),
-				dt = i.n(st);
-			function ct(e, t) {
+				De = i(795),
+				ze = i(796),
+				Be = i(776),
+				Ne = i(775),
+				Re = i(794),
+				Ae = i(792),
+				Pe = i(34),
+				We = i(162),
+				Le = i.n(We);
+			function Me(e, t) {
 				return (
 					(function (e) {
 						if (Array.isArray(e)) return e;
@@ -2503,11 +2482,11 @@
 					})(e, t) ||
 					(function (e, t) {
 						if (!e) return;
-						if ('string' == typeof e) return pt(e, t);
+						if ('string' == typeof e) return Ee(e, t);
 						var i = Object.prototype.toString.call(e).slice(8, -1);
 						'Object' === i && e.constructor && (i = e.constructor.name);
 						if ('Map' === i || 'Set' === i) return Array.from(e);
-						if ('Arguments' === i || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(i)) return pt(e, t);
+						if ('Arguments' === i || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(i)) return Ee(e, t);
 					})(e, t) ||
 					(function () {
 						throw new TypeError(
@@ -2516,12 +2495,12 @@
 					})()
 				);
 			}
-			function pt(e, t) {
+			function Ee(e, t) {
 				(null == t || t > e.length) && (t = e.length);
 				for (var i = 0, n = new Array(t); i < t; i++) n[i] = e[i];
 				return n;
 			}
-			function ht(e, t) {
+			function Fe(e, t) {
 				var i = Object.keys(e);
 				if (Object.getOwnPropertySymbols) {
 					var n = Object.getOwnPropertySymbols(e);
@@ -2533,7 +2512,7 @@
 				}
 				return i;
 			}
-			function bt(e, t, i) {
+			function He(e, t, i) {
 				return (
 					t in e
 						? Object.defineProperty(e, t, { value: i, enumerable: !0, configurable: !0, writable: !0 })
@@ -2541,19 +2520,206 @@
 					e
 				);
 			}
-			const xt = r.a.forwardRef(function (e, t) {
-					return Object(F.jsx)(
-						Ae.a,
+			const $e = r.a.forwardRef(function (e, t) {
+				return Object(H.jsx)(
+					Ne.a,
+					(function (e) {
+						for (var t = 1; t < arguments.length; t++) {
+							var i = null != arguments[t] ? arguments[t] : {};
+							t % 2
+								? Fe(Object(i), !0).forEach(function (t) {
+										He(e, t, i[t]);
+								  })
+								: Object.getOwnPropertyDescriptors
+								? Object.defineProperties(e, Object.getOwnPropertyDescriptors(i))
+								: Fe(Object(i)).forEach(function (t) {
+										Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(i, t));
+								  });
+						}
+						return e;
+					})({ direction: 'up', ref: t }, e),
+				);
+			});
+			var Ve = Object(k.c)(
+					Object(a.c)(
+						function (e) {
+							return { loggedIn: e.account.loggedIn };
+						},
+						function (e) {
+							return Object(s.b)({ setLoggedIn: C }, e);
+						},
+					)((e) => {
+						const t = Me(Object(n.useState)(''), 2),
+							i = t[0],
+							r = t[1],
+							o = Me(Object(n.useState)(''), 2),
+							l = o[0],
+							a = o[1];
+						return Object(H.jsx)('div', {
+							style: { width: '100vw', height: '100vh', position: 'absolute' },
+							children: Object(H.jsxs)(De.a, {
+								open: !0,
+								TransitionComponent: $e,
+								keepMounted: !0,
+								onClose: () => null,
+								'aria-describedby': 'alert-dialog-slide-description',
+								children: [
+									Object(H.jsx)(Be.a, {
+										style: { textAlign: 'center', textTransform: 'uppercase', fontSize: 28 },
+									}),
+									Object(H.jsxs)(ze.a, {
+										style: { paddingLeft: 60, paddingRight: 60 },
+										children: [
+											Object(H.jsxs)('div', {
+												style: {
+													marginBottom: 20,
+													marginTop: 20,
+													display: 'flex',
+													flexDirection: 'column',
+												},
+												children: [
+													Object(H.jsx)(re.a, {
+														id: 'outlined-basic',
+														variant: 'outlined',
+														value: i,
+														onChange: (e) => r(e.target.value),
+														type: 'password',
+														style: { marginBottom: 17, width: '100%' },
+													}),
+													Object(H.jsx)(re.a, {
+														id: 'outlined-basic',
+														variant: 'outlined',
+														value: l,
+														onChange: (e) => a(e.target.value),
+														type: 'password',
+														style: { width: '100%' },
+													}),
+												],
+											}),
+											Object(H.jsx)('div', {
+												style: { display: 'flex', flexDirection: 'column' },
+												children: Object(H.jsx)(E, {
+													variant: 'contained',
+													disableRipple: !0,
+													onClick: () => {
+														'iclaimthisname' === i && 'Ghjanki6!Xixebi6!' === l && e.setLoggedIn();
+													},
+													sx: { width: '100%', height: 45, fontSize: 20, backgroundColor: '#8ab4e7' },
+												}),
+											}),
+										],
+									}),
+								],
+							}),
+						});
+					}),
+				),
+				Ue = i(777),
+				Ge = i(333),
+				Ke = i(802),
+				_e = i(725),
+				Je = i(797),
+				Ye = i(789),
+				qe = i(334),
+				Xe = i(778),
+				Qe = i(779),
+				Ze = i(229),
+				et = i.n(Ze),
+				tt = i(230),
+				it = i.n(tt),
+				nt = i(231),
+				rt = i.n(nt),
+				ot = i(224),
+				lt = i.n(ot),
+				at = i(223),
+				st = i.n(at),
+				dt = i(225),
+				ct = i.n(dt),
+				pt = i(228),
+				bt = i.n(pt),
+				ht = i(226),
+				xt = i.n(ht),
+				jt = i(227),
+				ft = i.n(jt);
+			function gt(e, t) {
+				return (
+					(function (e) {
+						if (Array.isArray(e)) return e;
+					})(e) ||
+					(function (e, t) {
+						var i = null == e ? null : ('undefined' != typeof Symbol && e[Symbol.iterator]) || e['@@iterator'];
+						if (null == i) return;
+						var n,
+							r,
+							o = [],
+							l = !0,
+							a = !1;
+						try {
+							for (i = i.call(e); !(l = (n = i.next()).done) && (o.push(n.value), !t || o.length !== t); l = !0);
+						} catch (e) {
+							(a = !0), (r = e);
+						} finally {
+							try {
+								l || null == i.return || i.return();
+							} finally {
+								if (a) throw r;
+							}
+						}
+						return o;
+					})(e, t) ||
+					(function (e, t) {
+						if (!e) return;
+						if ('string' == typeof e) return ut(e, t);
+						var i = Object.prototype.toString.call(e).slice(8, -1);
+						'Object' === i && e.constructor && (i = e.constructor.name);
+						if ('Map' === i || 'Set' === i) return Array.from(e);
+						if ('Arguments' === i || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(i)) return ut(e, t);
+					})(e, t) ||
+					(function () {
+						throw new TypeError(
+							'Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.',
+						);
+					})()
+				);
+			}
+			function ut(e, t) {
+				(null == t || t > e.length) && (t = e.length);
+				for (var i = 0, n = new Array(t); i < t; i++) n[i] = e[i];
+				return n;
+			}
+			function mt(e, t) {
+				var i = Object.keys(e);
+				if (Object.getOwnPropertySymbols) {
+					var n = Object.getOwnPropertySymbols(e);
+					t &&
+						(n = n.filter(function (t) {
+							return Object.getOwnPropertyDescriptor(e, t).enumerable;
+						})),
+						i.push.apply(i, n);
+				}
+				return i;
+			}
+			function yt(e, t, i) {
+				return (
+					t in e
+						? Object.defineProperty(e, t, { value: i, enumerable: !0, configurable: !0, writable: !0 })
+						: (e[t] = i),
+					e
+				);
+			}
+			const Ot = r.a.forwardRef(function (e, t) {
+					return Object(H.jsx)(
+						Ne.a,
 						(function (e) {
 							for (var t = 1; t < arguments.length; t++) {
 								var i = null != arguments[t] ? arguments[t] : {};
 								t % 2
-									? ht(Object(i), !0).forEach(function (t) {
-											bt(e, t, i[t]);
+									? mt(Object(i), !0).forEach(function (t) {
+											yt(e, t, i[t]);
 									  })
 									: Object.getOwnPropertyDescriptors
 									? Object.defineProperties(e, Object.getOwnPropertyDescriptors(i))
-									: ht(Object(i)).forEach(function (t) {
+									: mt(Object(i)).forEach(function (t) {
 											Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(i, t));
 									  });
 							}
@@ -2561,25 +2727,25 @@
 						})({ direction: 'up', ref: t }, e),
 					);
 				}),
-				jt = () =>
-					Object(F.jsxs)(Qe.a, {
+				vt = () =>
+					Object(H.jsxs)(Ae.a, {
 						component: 'form',
 						sx: { p: '2px 4px', display: 'flex', alignItems: 'center', width: 277 },
 						children: [
-							Object(F.jsx)(Fe.a, { sx: { p: '10px' }, children: Object(F.jsx)(tt.a, {}) }),
-							Object(F.jsx)(Ze.c, { sx: { ml: 1, flex: 1 }, placeholder: 'Sök ...' }),
+							Object(H.jsx)(Re.a, { sx: { p: '10px' }, children: Object(H.jsx)(Le.a, {}) }),
+							Object(H.jsx)(Pe.c, { sx: { ml: 1, flex: 1 }, placeholder: 'Sök ...' }),
 						],
 					}),
-				ft = Object(Te.a)(P.a)({
+				wt = Object(Ue.a)(L.a)({
 					boxShadow: 'none',
 					textTransform: 'none',
 					fontSize: 16,
 					padding: '6px 12px',
 					border: '1px solid',
 					lineHeight: 1.5,
-					backgroundColor: N,
-					borderColor: N,
-					color: B + ' !important',
+					backgroundColor: R,
+					borderColor: R,
+					color: N + ' !important',
 					fontFamily: [
 						'-apple-system',
 						'BlinkMacSystemFont',
@@ -2596,7 +2762,7 @@
 					'&:active': {},
 					'&:focus': {},
 				}),
-				gt = Object(E.a)(() => ({
+				kt = Object(F.a)(() => ({
 					root: {
 						background: '#fff',
 						display: 'flex',
@@ -2617,8 +2783,8 @@
 					footer: {
 						minHeight: '10vh',
 						width: '100vw',
-						background: B,
-						color: R,
+						background: N,
+						color: A,
 						display: 'flex',
 						justifyContent: 'center',
 						marginTop: 20,
@@ -2627,8 +2793,8 @@
 					headerMenu: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '40vw' },
 					menuItem: { textTransform: 'uppercase !important', paddingBottom: '5px !important' },
 					menuActive: {
-						color: T + ' !important',
-						borderBottom: `2px solid ${T} !important`,
+						color: D + ' !important',
+						borderBottom: `2px solid ${D} !important`,
 						paddingBottom: '3px !important',
 					},
 					chatArea: {
@@ -2646,8 +2812,8 @@
 					chatOpen: { marginRight: 0 },
 					loginPaper: { width: '27vw', height: '54vh', borderRadius: '14px !important' },
 				})),
-				ut = Object(De.a)({ props: { MuiButtonBase: { disableRipple: !0 } } }),
-				mt = [
+				St = Object(Ge.a)({ props: { MuiButtonBase: { disableRipple: !0 } } }),
+				Ct = [
 					{
 						id: 1,
 						name: 'Lars-Åke',
@@ -2667,413 +2833,422 @@
 						imagePath: './images/person_3.avif',
 					},
 				];
-			var yt = Object(w.c)(
+			var It = Object(k.c)(
 					Object(a.c)(
 						function (e) {
-							return { loggedIn: e.account.loggedIn };
+							return { loggedIn: e.account.loggedIn, x: e.app.x };
 						},
 						function (e) {
-							return Object(s.b)({ login: C, logout: I }, e);
+							return Object(s.b)({ login: I, logout: T }, e);
 						},
 					)((e) => {
-						const t = gt(),
-							i = ct(Object(n.useState)('home'), 2),
+						const t = kt(),
+							i = gt(Object(n.useState)('home'), 2),
 							o = i[0],
 							l = i[1],
-							a = ct(Object(n.useState)(!1), 2),
+							a = gt(Object(n.useState)(!1), 2),
 							s = a[0],
 							d = a[1],
-							c = ct(Object(n.useState)(!1), 2),
+							c = gt(Object(n.useState)(!1), 2),
 							p = c[0],
-							h = c[1],
-							b = ct(Object(n.useState)(null), 2),
-							x = b[0],
-							j = b[1],
-							f = Boolean(x),
-							g = () => {
+							b = c[1],
+							h = gt(Object(n.useState)(null), 2),
+							x = h[0],
+							j = h[1],
+							f = gt(Object(n.useState)(1), 2),
+							g = f[0],
+							u = f[1],
+							m = Boolean(x),
+							y = () => {
 								j(null);
 							},
-							u = () => {
-								h(!0);
+							O = () => {
+								b(!0);
 							},
-							m = () => {
-								h(!1);
+							v = () => {
+								b(!1);
 							};
-						return Object(F.jsx)(ze.a, {
-							theme: ut,
-							children: Object(F.jsxs)('div', {
-								className: t.root,
-								children: [
-									Object(F.jsxs)(Be.a, {
-										open: p,
-										TransitionComponent: xt,
-										keepMounted: !0,
-										onClose: m,
-										classes: { paper: t.loginPaper },
-										'aria-describedby': 'alert-dialog-slide-description',
+						return e.x
+							? Object(H.jsx)(Ke.a, {
+									theme: St,
+									children: Object(H.jsxs)('div', {
+										className: t.root,
 										children: [
-											Object(F.jsx)(Re.a, {
-												style: { textAlign: 'center', textTransform: 'uppercase', fontSize: 28 },
-												children: 'Logga in',
-											}),
-											Object(F.jsxs)(Ne.a, {
-												style: { paddingLeft: 60, paddingRight: 60 },
+											Object(H.jsxs)(De.a, {
+												open: p,
+												TransitionComponent: Ot,
+												keepMounted: !0,
+												onClose: v,
+												classes: { paper: t.loginPaper },
+												'aria-describedby': 'alert-dialog-slide-description',
 												children: [
-													Object(F.jsxs)('div', {
-														style: {
-															marginBottom: 20,
-															marginTop: 20,
-															display: 'flex',
-															flexDirection: 'column',
-														},
-														children: [
-															Object(F.jsx)(ne.a, {
-																id: 'outlined-basic',
-																label: 'Email',
-																variant: 'outlined',
-																defaultValue: '',
-																style: { marginBottom: 17, width: '100%' },
-															}),
-															Object(F.jsx)(ne.a, {
-																id: 'outlined-basic',
-																label: 'Lösenord',
-																variant: 'outlined',
-																defaultValue: '',
-																type: 'password',
-																style: { width: '100%' },
-															}),
-														],
+													Object(H.jsx)(Be.a, {
+														style: { textAlign: 'center', textTransform: 'uppercase', fontSize: 28 },
+														children: 'Logga in',
 													}),
-													Object(F.jsx)('div', {
-														children: Object(F.jsx)(We.a, {
-															children: Object(F.jsx)(le.a, {
-																control: Object(F.jsx)(ae.a, {}),
-																label: 'Håll mig inloggad',
-															}),
-														}),
-													}),
-													Object(F.jsxs)('div', {
-														style: { display: 'flex', flexDirection: 'column' },
+													Object(H.jsxs)(ze.a, {
+														style: { paddingLeft: 60, paddingRight: 60 },
 														children: [
-															Object(F.jsx)(M, {
-																variant: 'contained',
-																disableRipple: !0,
-																onClick: () => {
-																	e.login(), m();
-																},
-																sx: { width: '100%', height: 45, fontSize: 20 },
-																children: 'Logga in',
-															}),
-															Object(F.jsx)('span', {
+															Object(H.jsxs)('div', {
 																style: {
-																	width: '100%',
-																	textAlign: 'right',
-																	textDecoration: 'underline',
-																	marginTop: 7,
-																	cursor: 'pointer',
+																	marginBottom: 20,
+																	marginTop: 20,
+																	display: 'flex',
+																	flexDirection: 'column',
 																},
-																children: 'Glömt lösenord',
+																children: [
+																	Object(H.jsx)(re.a, {
+																		id: 'outlined-basic',
+																		label: 'Email',
+																		variant: 'outlined',
+																		defaultValue: '',
+																		style: { marginBottom: 17, width: '100%' },
+																	}),
+																	Object(H.jsx)(re.a, {
+																		id: 'outlined-basic',
+																		label: 'Lösenord',
+																		variant: 'outlined',
+																		defaultValue: '',
+																		type: 'password',
+																		style: { width: '100%' },
+																	}),
+																],
+															}),
+															Object(H.jsx)('div', {
+																children: Object(H.jsx)(_e.a, {
+																	children: Object(H.jsx)(ae.a, {
+																		control: Object(H.jsx)(se.a, {}),
+																		label: 'Håll mig inloggad',
+																	}),
+																}),
+															}),
+															Object(H.jsxs)('div', {
+																style: { display: 'flex', flexDirection: 'column' },
+																children: [
+																	Object(H.jsx)(E, {
+																		variant: 'contained',
+																		disableRipple: !0,
+																		onClick: () => {
+																			e.login(), v();
+																		},
+																		sx: { width: '100%', height: 45, fontSize: 20 },
+																		children: 'Logga in',
+																	}),
+																	Object(H.jsx)('span', {
+																		style: {
+																			width: '100%',
+																			textAlign: 'right',
+																			textDecoration: 'underline',
+																			marginTop: 7,
+																			cursor: 'pointer',
+																		},
+																		children: 'Glömt lösenord',
+																	}),
+																],
+															}),
+															Object(H.jsx)('div', {
+																style: { width: '100%', margin: '20px 0px', textAlign: 'center' },
+																children: 'Inget konto?',
+															}),
+															Object(H.jsx)('div', {
+																style: { width: '100%' },
+																children: Object(H.jsx)(M, {
+																	variant: 'contained',
+																	disableRipple: !0,
+																	onClick: () => {
+																		e.login(), v();
+																	},
+																	sx: { width: '100%', height: 45, fontSize: 20 },
+																	children: 'Skapa användare',
+																}),
 															}),
 														],
-													}),
-													Object(F.jsx)('div', {
-														style: { width: '100%', margin: '20px 0px', textAlign: 'center' },
-														children: 'Inget konto?',
-													}),
-													Object(F.jsx)('div', {
-														style: { width: '100%' },
-														children: Object(F.jsx)(L, {
-															variant: 'contained',
-															disableRipple: !0,
-															onClick: () => {
-																e.login(), m();
-															},
-															sx: { width: '100%', height: 45, fontSize: 20 },
-															children: 'Skapa användare',
-														}),
 													}),
 												],
 											}),
-										],
-									}),
-									e.loggedIn &&
-										Object(F.jsxs)('div', {
-											className: Object(S.a)(t.chatArea, { [t.chatOpen]: s }),
-											children: [
-												Object(F.jsx)('div', {
-													onClick: () => d(!s),
-													style: {
-														height: '25vh',
-														background: '#fff',
-														width: 45,
-														border: '1px solid black',
-														borderRight: 'none',
-														marginRight: -1,
-														zIndex: 1,
-														borderTopLeftRadius: 12,
-														borderBottomLeftRadius: 12,
-														cursor: 'pointer',
-														display: 'flex',
-														justifyContent: 'center',
-														alignItems: 'center',
-														color: '#000',
-													},
-													children: s
-														? Object(F.jsx)(Xe.a, { color: 'inherit', fontSize: 'large' })
-														: Object(F.jsx)(Ye.a, { color: 'inherit', fontSize: 'large' }),
-												}),
-												Object(F.jsxs)('div', {
-													style: {
-														background: '#fff',
-														width: '100%',
-														height: '100%',
-														border: '1px solid black',
-														display: 'flex',
-													},
+											e.loggedIn &&
+												Object(H.jsxs)('div', {
+													className: Object(S.a)(t.chatArea, { [t.chatOpen]: s }),
 													children: [
-														Object(F.jsxs)('div', {
+														Object(H.jsx)('div', {
+															onClick: () => d(!s),
 															style: {
-																flex: 0.33,
-																borderRight: '1px solid #c4c4c4a3',
+																height: '25vh',
+																background: '#fff',
+																width: 45,
+																border: '1px solid black',
+																borderRight: 'none',
+																marginRight: -1,
+																zIndex: 1,
+																borderTopLeftRadius: 12,
+																borderBottomLeftRadius: 12,
+																cursor: 'pointer',
 																display: 'flex',
-																flexDirection: 'column',
+																justifyContent: 'center',
+																alignItems: 'center',
+																color: '#000',
+															},
+															children: s
+																? Object(H.jsx)(st.a, { color: 'inherit', fontSize: 'large' })
+																: Object(H.jsx)(lt.a, { color: 'inherit', fontSize: 'large' }),
+														}),
+														Object(H.jsxs)('div', {
+															style: {
+																background: '#fff',
+																width: '100%',
+																height: '100%',
+																border: '1px solid black',
+																display: 'flex',
 															},
 															children: [
-																Object(F.jsxs)('div', {
-																	style: { height: 69, display: 'flex', alignItems: 'center' },
-																	children: [
-																		Object(F.jsx)('div', {
-																			style: { flex: 0.25, paddingLeft: 20 },
-																			children: Object(F.jsx)(nt.a, {}),
-																		}),
-																		Object(F.jsx)('div', {
-																			style: {
-																				flex: 1,
-																				paddingLeft: 20,
-																				fontSize: 24,
-																				fontWeight: 'bold',
-																				textTransform: 'uppercase',
-																			},
-																			children: 'Chatt',
-																		}),
-																	],
-																}),
-																Object(F.jsx)('div', {
+																Object(H.jsxs)('div', {
 																	style: {
-																		height: 50,
-																		padding: '12px 24px',
-																		borderBottom: '1px solid #d9d9d9',
+																		flex: 0.33,
+																		borderRight: '1px solid #c4c4c4a3',
+																		display: 'flex',
+																		flexDirection: 'column',
 																	},
-																	children: Object(F.jsx)(jt, {}),
-																}),
-																Object(F.jsx)('div', {
-																	style: { flex: 1 },
-																	children: mt.map((e) =>
-																		Object(F.jsxs)(
-																			'div',
-																			{
-																				style: {
-																					position: 'relative',
-																					width: '100%',
-																					height: 70,
-																					display: 'flex',
-																					alignItems: 'center',
-																					marginTop: 7,
-																					borderLeft: '1px solid #d9d9d9',
-																					borderBottom: '1px solid #d9d9d9',
-																				},
-																				children: [
-																					Object(F.jsx)('div', {
+																	children: [
+																		Object(H.jsxs)('div', {
+																			style: { height: 69, display: 'flex', alignItems: 'center' },
+																			children: [
+																				Object(H.jsx)('div', {
+																					style: { flex: 0.25, paddingLeft: 20 },
+																					children: Object(H.jsx)(ct.a, {}),
+																				}),
+																				Object(H.jsx)('div', {
+																					style: {
+																						flex: 1,
+																						paddingLeft: 20,
+																						fontSize: 24,
+																						fontWeight: 'bold',
+																						textTransform: 'uppercase',
+																					},
+																					children: 'Chatt',
+																				}),
+																			],
+																		}),
+																		Object(H.jsx)('div', {
+																			style: {
+																				height: 50,
+																				padding: '12px 24px',
+																				borderBottom: '1px solid #d9d9d9',
+																			},
+																			children: Object(H.jsx)(vt, {}),
+																		}),
+																		Object(H.jsx)('div', {
+																			style: { flex: 1 },
+																			children: Ct.map((e, t) =>
+																				Object(H.jsxs)(
+																					'div',
+																					{
+																						id: 'hover-chat-area',
+																						onClick: () => u(t),
 																						style: {
-																							position: 'absolute',
-																							top: 1,
-																							right: 7,
-																							fontSize: 12,
-																						},
-																						children: e.messages[0].time,
-																					}),
-																					Object(F.jsx)('div', {
-																						style: {
-																							flex: 0.2,
+																							position: 'relative',
+																							width: '100%',
+																							height: 70,
 																							display: 'flex',
-																							justifyContent: 'space-between',
 																							alignItems: 'center',
-																							paddingLeft: 12,
-																						},
-																						children: Object(F.jsx)('div', {
-																							style: {
-																								width: 50,
-																								height: 50,
-																								borderRadius: '50%',
-																								overflow: 'hidden',
-																							},
-																							children: Object(F.jsx)('img', {
-																								width: '100%',
-																								height: '100%',
-																								src: e.imagePath,
-																							}),
-																						}),
-																					}),
-																					Object(F.jsxs)('div', {
-																						style: {
-																							flex: 0.8,
-																							display: 'flex',
-																							flexDirection: 'column',
-																							justifyContent: 'space-between',
-																							height: '60%',
+																							marginTop: 7,
+																							borderLeft: '1px solid #d9d9d9',
+																							borderBottom: '1px solid #d9d9d9',
+																							cursor: 'pointer',
 																						},
 																						children: [
-																							Object(F.jsx)('span', {
-																								style: { fontWeight: 'bold' },
-																								children: e.name,
+																							Object(H.jsx)('div', {
+																								style: {
+																									position: 'absolute',
+																									top: 1,
+																									right: 7,
+																									fontSize: 12,
+																								},
+																								children: e.messages[0].time,
 																							}),
-																							Object(F.jsx)('span', {
-																								children: e.messages[0].text,
+																							Object(H.jsx)('div', {
+																								style: {
+																									flex: 0.2,
+																									display: 'flex',
+																									justifyContent: 'space-between',
+																									alignItems: 'center',
+																									paddingLeft: 12,
+																								},
+																								children: Object(H.jsx)('div', {
+																									style: {
+																										width: 50,
+																										height: 50,
+																										borderRadius: '50%',
+																										overflow: 'hidden',
+																									},
+																									children: Object(H.jsx)('img', {
+																										width: '100%',
+																										height: '100%',
+																										src: e.imagePath,
+																									}),
+																								}),
+																							}),
+																							Object(H.jsxs)('div', {
+																								style: {
+																									flex: 0.8,
+																									display: 'flex',
+																									flexDirection: 'column',
+																									justifyContent: 'space-between',
+																									height: '60%',
+																								},
+																								children: [
+																									Object(H.jsx)('span', {
+																										style: { fontWeight: 'bold' },
+																										children: e.name,
+																									}),
+																									Object(H.jsx)('span', {
+																										children: e.messages[0].text,
+																									}),
+																								],
 																							}),
 																						],
-																					}),
-																				],
-																			},
-																			e.id,
-																		),
-																	),
-																}),
-															],
-														}),
-														Object(F.jsxs)('div', {
-															style: {
-																flex: 1,
-																backgroundColor: '#fff',
-																display: 'flex',
-																flexDirection: 'column',
-															},
-															children: [
-																Object(F.jsxs)('div', {
-																	style: {
-																		height: 69,
-																		display: 'flex',
-																		alignItems: 'center',
-																		borderBottom: '1px solid #d9d9d9',
-																	},
-																	children: [
-																		Object(F.jsx)('div', {
-																			style: {
-																				marginLeft: 30,
-																				width: 50,
-																				height: 50,
-																				borderRadius: '50%',
-																				overflow: 'hidden',
-																			},
-																			children: Object(F.jsx)('img', {
-																				width: '100%',
-																				height: '100%',
-																				src: './images/person_2.avif',
-																			}),
-																		}),
-																		Object(F.jsx)('div', {
-																			style: { paddingLeft: 27, fontWeight: 'bold' },
-																			children: 'Sven-Lasse',
+																					},
+																					e.id,
+																				),
+																			),
 																		}),
 																	],
 																}),
-																Object(F.jsxs)('div', {
+																Object(H.jsxs)('div', {
 																	style: {
 																		flex: 1,
-																		display: 'flex',
-																		flexDirection: 'column-reverse',
-																		padding: 12,
-																	},
-																	children: [
-																		Object(F.jsx)('div', {
-																			style: {
-																				width: '100%',
-																				display: 'flex',
-																				justifyContent: 'flex-end',
-																				marginTop: 12,
-																			},
-																			children: Object(F.jsx)('div', {
-																				style: {
-																					width: 200,
-																					height: 50,
-																					borderRadius: 10,
-																					backgroundColor: '#c4c4c4a3',
-																					padding: 20,
-																				},
-																				children: 'Meddelande',
-																			}),
-																		}),
-																		Object(F.jsx)('div', {
-																			style: {
-																				width: '100%',
-																				display: 'flex',
-																				justifyContent: 'flex-start',
-																				marginTop: 12,
-																			},
-																			children: Object(F.jsx)('div', {
-																				style: {
-																					width: 200,
-																					height: 50,
-																					borderRadius: 10,
-																					backgroundColor: '#c4c4c4a3',
-																					padding: 20,
-																				},
-																				children: 'Meddelande',
-																			}),
-																		}),
-																		Object(F.jsx)('div', {
-																			style: {
-																				width: '100%',
-																				display: 'flex',
-																				justifyContent: 'flex-end',
-																				marginTop: 12,
-																			},
-																			children: Object(F.jsx)('div', {
-																				style: {
-																					width: 200,
-																					height: 50,
-																					borderRadius: 10,
-																					backgroundColor: '#c4c4c4a3',
-																					padding: 20,
-																				},
-																				children: 'Meddelande',
-																			}),
-																		}),
-																	],
-																}),
-																Object(F.jsxs)('div', {
-																	style: {
-																		display: 'flex',
 																		backgroundColor: '#fff',
-																		padding: 12,
-																		borderTop: '1px solid #d9d9d9',
+																		display: 'flex',
+																		flexDirection: 'column',
 																	},
 																	children: [
-																		Object(F.jsx)('div', {
-																			style: { color: '#0009' },
-																			children: Object(F.jsx)(at.a, { color: 'inherit' }),
-																		}),
-																		Object(F.jsx)('div', {
-																			style: { color: '#0009' },
-																			children: Object(F.jsx)(dt.a, { color: 'inherit' }),
-																		}),
-																		Object(F.jsx)('div', {
-																			style: { flex: 1 },
-																			children: Object(F.jsx)(Ze.c, {
-																				sx: { ml: 1, flex: 1 },
-																				placeholder: 'Skriv här ...',
-																			}),
-																		}),
-																		Object(F.jsx)('div', {
+																		Object(H.jsxs)('div', {
 																			style: {
-																				backgroundColor: '#bf4885',
-																				color: '#fff',
-																				borderRadius: 6,
+																				height: 69,
 																				display: 'flex',
-																				justifyContent: 'center',
 																				alignItems: 'center',
-																				padding: '0px 6px',
+																				borderBottom: '1px solid #d9d9d9',
 																			},
-																			children: Object(F.jsx)(ot.a, { color: 'inherit' }),
+																			children: [
+																				Object(H.jsx)('div', {
+																					style: {
+																						marginLeft: 30,
+																						width: 50,
+																						height: 50,
+																						borderRadius: '50%',
+																						overflow: 'hidden',
+																					},
+																					children: Object(H.jsx)('img', {
+																						width: '100%',
+																						height: '100%',
+																						src: Ct[g].imagePath,
+																					}),
+																				}),
+																				Object(H.jsx)('div', {
+																					style: { paddingLeft: 27, fontWeight: 'bold' },
+																					children: Ct[g].name,
+																				}),
+																			],
+																		}),
+																		Object(H.jsxs)('div', {
+																			style: {
+																				flex: 1,
+																				display: 'flex',
+																				flexDirection: 'column-reverse',
+																				padding: 12,
+																			},
+																			children: [
+																				Object(H.jsx)('div', {
+																					style: {
+																						width: '100%',
+																						display: 'flex',
+																						justifyContent: 'flex-end',
+																						marginTop: 12,
+																					},
+																					children: Object(H.jsx)('div', {
+																						style: {
+																							width: 200,
+																							height: 50,
+																							borderRadius: 10,
+																							backgroundColor: '#c4c4c4a3',
+																							padding: 20,
+																						},
+																						children: 'Meddelande',
+																					}),
+																				}),
+																				Object(H.jsx)('div', {
+																					style: {
+																						width: '100%',
+																						display: 'flex',
+																						justifyContent: 'flex-start',
+																						marginTop: 12,
+																					},
+																					children: Object(H.jsx)('div', {
+																						style: {
+																							width: 200,
+																							height: 50,
+																							borderRadius: 10,
+																							backgroundColor: '#c4c4c4a3',
+																							padding: 20,
+																						},
+																						children: 'Meddelande',
+																					}),
+																				}),
+																				Object(H.jsx)('div', {
+																					style: {
+																						width: '100%',
+																						display: 'flex',
+																						justifyContent: 'flex-end',
+																						marginTop: 12,
+																					},
+																					children: Object(H.jsx)('div', {
+																						style: {
+																							width: 200,
+																							height: 50,
+																							borderRadius: 10,
+																							backgroundColor: '#c4c4c4a3',
+																							padding: 20,
+																						},
+																						children: 'Meddelande',
+																					}),
+																				}),
+																			],
+																		}),
+																		Object(H.jsxs)('div', {
+																			style: {
+																				display: 'flex',
+																				backgroundColor: '#fff',
+																				padding: 12,
+																				borderTop: '1px solid #d9d9d9',
+																			},
+																			children: [
+																				Object(H.jsx)('div', {
+																					style: { color: '#0009' },
+																					children: Object(H.jsx)(xt.a, { color: 'inherit' }),
+																				}),
+																				Object(H.jsx)('div', {
+																					style: { color: '#0009' },
+																					children: Object(H.jsx)(ft.a, { color: 'inherit' }),
+																				}),
+																				Object(H.jsx)('div', {
+																					style: { flex: 1 },
+																					children: Object(H.jsx)(Pe.c, {
+																						sx: { ml: 1, flex: 1 },
+																						placeholder: 'Skriv här ...',
+																					}),
+																				}),
+																				Object(H.jsx)('div', {
+																					style: {
+																						backgroundColor: '#bf4885',
+																						color: '#fff',
+																						borderRadius: 6,
+																						display: 'flex',
+																						justifyContent: 'center',
+																						alignItems: 'center',
+																						padding: '0px 6px',
+																					},
+																					children: Object(H.jsx)(bt.a, { color: 'inherit' }),
+																				}),
+																			],
 																		}),
 																	],
 																}),
@@ -3081,246 +3256,254 @@
 														}),
 													],
 												}),
-											],
-										}),
-									Object(F.jsxs)('div', {
-										className: t.mainContent,
-										children: [
-											Object(F.jsxs)('div', {
-												className: t.header,
+											Object(H.jsxs)('div', {
+												className: t.mainContent,
 												children: [
-													Object(F.jsxs)('div', {
-														className: t.logo,
+													Object(H.jsxs)('div', {
+														className: t.header,
 														children: [
-															Object(F.jsx)('img', {
-																style: { position: 'absolute' },
-																src: './images/Logo-sinclairs.jpg',
-															}),
-															Object(F.jsxs)('div', {
-																style: { position: 'absolute', right: 0, width: 51 },
+															Object(H.jsxs)('div', {
+																className: t.logo,
 																children: [
-																	Object(F.jsx)('div', {
-																		className: t.square,
-																		style: { background: N },
+																	Object(H.jsx)('img', {
+																		style: { position: 'absolute' },
+																		src: './images/Logo-sinclairs.jpg',
 																	}),
-																	Object(F.jsx)('div', {
-																		className: t.square,
-																		style: { background: T },
+																	Object(H.jsxs)('div', {
+																		style: { position: 'absolute', right: 0, width: 51 },
+																		children: [
+																			Object(H.jsx)('div', {
+																				className: t.square,
+																				style: { background: R },
+																			}),
+																			Object(H.jsx)('div', {
+																				className: t.square,
+																				style: { background: D },
+																			}),
+																			Object(H.jsx)('div', {
+																				className: t.square,
+																				style: { background: z },
+																			}),
+																			Object(H.jsx)('div', {
+																				className: t.square,
+																				style: { background: B },
+																			}),
+																		],
 																	}),
-																	Object(F.jsx)('div', {
-																		className: t.square,
-																		style: { background: D },
-																	}),
-																	Object(F.jsx)('div', {
-																		className: t.square,
-																		style: { background: z },
+																	Object(H.jsx)('div', {
+																		style: {
+																			position: 'absolute',
+																			width: '100%',
+																			textAlign: 'center',
+																			bottom: 17,
+																			fontSize: 12,
+																			paddingLeft: 25,
+																		},
+																		children: 'PRIVATLEKTIONER',
 																	}),
 																],
 															}),
-															Object(F.jsx)('div', {
-																style: {
-																	position: 'absolute',
-																	width: '100%',
-																	textAlign: 'center',
-																	bottom: 17,
-																	fontSize: 12,
-																	paddingLeft: 25,
-																},
-																children: 'PRIVATLEKTIONER',
-															}),
-														],
-													}),
-													Object(F.jsxs)('div', {
-														className: t.headerMenu,
-														children: [
-															Object(F.jsx)('div', {
-																children: Object(F.jsx)(ft, {
-																	disableRipple: !0,
-																	variant: 'text',
-																	onClick: () => l('home'),
-																	className: Object(S.a)(t.menuItem, { [t.menuActive]: 'home' === o }),
-																	children: 'Start',
-																}),
-															}),
-															Object(F.jsx)('div', {
-																children: Object(F.jsx)(ft, {
-																	disableRipple: !0,
-																	variant: 'text',
-																	onClick: () => l('book'),
-																	className: Object(S.a)(t.menuItem, { [t.menuActive]: 'book' === o }),
-																	children: 'Boka',
-																}),
-															}),
-															Object(F.jsx)('div', {
-																children: Object(F.jsx)(ft, {
-																	disableRipple: !0,
-																	variant: 'text',
-																	onClick: () => l('price'),
-																	className: Object(S.a)(t.menuItem, {
-																		[t.menuActive]: 'price' === o,
-																	}),
-																	children: 'Priser',
-																}),
-															}),
-															Object(F.jsxs)('div', {
-																style: { width: 100 },
+															Object(H.jsxs)('div', {
+																className: t.headerMenu,
 																children: [
-																	!e.loggedIn &&
-																		Object(F.jsx)(ft, {
+																	Object(H.jsx)('div', {
+																		children: Object(H.jsx)(wt, {
 																			disableRipple: !0,
 																			variant: 'text',
-																			onClick: u,
-																			className: t.menuItem,
-																			children: 'Logga in',
+																			onClick: () => l('home'),
+																			className: Object(S.a)(t.menuItem, {
+																				[t.menuActive]: 'home' === o,
+																			}),
+																			children: 'Start',
 																		}),
-																	e.loggedIn &&
-																		Object(F.jsxs)(r.a.Fragment, {
-																			children: [
-																				Object(F.jsx)(Pe.a, {
-																					sx: {
-																						display: 'flex',
-																						alignItems: 'center',
-																						textAlign: 'center',
-																					},
-																					children: Object(F.jsx)(He.a, {
-																						title: 'Account settings',
-																						children: Object(F.jsx)(Fe.a, {
-																							onClick: (e) => {
-																								j(e.currentTarget);
+																	}),
+																	Object(H.jsx)('div', {
+																		children: Object(H.jsx)(wt, {
+																			disableRipple: !0,
+																			variant: 'text',
+																			onClick: () => l('book'),
+																			className: Object(S.a)(t.menuItem, {
+																				[t.menuActive]: 'book' === o,
+																			}),
+																			children: 'Boka',
+																		}),
+																	}),
+																	Object(H.jsx)('div', {
+																		children: Object(H.jsx)(wt, {
+																			disableRipple: !0,
+																			variant: 'text',
+																			onClick: () => l('price'),
+																			className: Object(S.a)(t.menuItem, {
+																				[t.menuActive]: 'price' === o,
+																			}),
+																			children: 'Priser',
+																		}),
+																	}),
+																	Object(H.jsxs)('div', {
+																		style: { width: 100 },
+																		children: [
+																			!e.loggedIn &&
+																				Object(H.jsx)(wt, {
+																					disableRipple: !0,
+																					variant: 'text',
+																					onClick: O,
+																					className: t.menuItem,
+																					children: 'Logga in',
+																				}),
+																			e.loggedIn &&
+																				Object(H.jsxs)(r.a.Fragment, {
+																					children: [
+																						Object(H.jsx)(Je.a, {
+																							sx: {
+																								display: 'flex',
+																								alignItems: 'center',
+																								textAlign: 'center',
 																							},
-																							size: 'small',
-																							sx: { ml: 2 },
-																							'aria-controls': f ? 'account-menu' : void 0,
-																							'aria-haspopup': 'true',
-																							'aria-expanded': f ? 'true' : void 0,
-																							children: Object(F.jsx)(Le.a, {
-																								sx: { width: 32, height: 32, background: A },
-																								children: 'M',
+																							children: Object(H.jsx)(Qe.a, {
+																								title: 'Account settings',
+																								children: Object(H.jsx)(Re.a, {
+																									onClick: (e) => {
+																										j(e.currentTarget);
+																									},
+																									size: 'small',
+																									sx: { ml: 2 },
+																									'aria-controls': m ? 'account-menu' : void 0,
+																									'aria-haspopup': 'true',
+																									'aria-expanded': m ? 'true' : void 0,
+																									children: Object(H.jsx)(Ye.a, {
+																										sx: {
+																											width: 32,
+																											height: 32,
+																											background: P,
+																										},
+																										children: 'M',
+																									}),
+																								}),
 																							}),
 																						}),
-																					}),
-																				}),
-																				Object(F.jsxs)(Me.a, {
-																					anchorEl: x,
-																					id: 'account-menu',
-																					open: f,
-																					onClose: g,
-																					onClick: g,
-																					PaperProps: {
-																						elevation: 0,
-																						sx: {
-																							overflow: 'visible',
-																							filter:
-																								'drop-shadow(0px 2px 8px rgba(0,0,0,0.32))',
-																							mt: 1.5,
-																							'& .MuiAvatar-root': {
-																								width: 32,
-																								height: 32,
-																								ml: -0.5,
-																								mr: 1,
+																						Object(H.jsxs)(qe.a, {
+																							anchorEl: x,
+																							id: 'account-menu',
+																							open: m,
+																							onClose: y,
+																							onClick: y,
+																							PaperProps: {
+																								elevation: 0,
+																								sx: {
+																									overflow: 'visible',
+																									filter:
+																										'drop-shadow(0px 2px 8px rgba(0,0,0,0.32))',
+																									mt: 1.5,
+																									'& .MuiAvatar-root': {
+																										width: 32,
+																										height: 32,
+																										ml: -0.5,
+																										mr: 1,
+																									},
+																									'&:before': {
+																										content: '""',
+																										display: 'block',
+																										position: 'absolute',
+																										top: 0,
+																										right: 14,
+																										width: 10,
+																										height: 10,
+																										bgcolor: 'background.paper',
+																										transform:
+																											'translateY(-50%) rotate(45deg)',
+																										zIndex: 0,
+																									},
+																								},
 																							},
-																							'&:before': {
-																								content: '""',
-																								display: 'block',
-																								position: 'absolute',
-																								top: 0,
-																								right: 14,
-																								width: 10,
-																								height: 10,
-																								bgcolor: 'background.paper',
-																								transform: 'translateY(-50%) rotate(45deg)',
-																								zIndex: 0,
+																							transformOrigin: {
+																								horizontal: 'right',
+																								vertical: 'top',
 																							},
-																						},
-																					},
-																					transformOrigin: {
-																						horizontal: 'right',
-																						vertical: 'top',
-																					},
-																					anchorOrigin: {
-																						horizontal: 'right',
-																						vertical: 'bottom',
-																					},
-																					children: [
-																						Object(F.jsxs)(Q.a, {
+																							anchorOrigin: {
+																								horizontal: 'right',
+																								vertical: 'bottom',
+																							},
 																							children: [
-																								Object(F.jsx)(Le.a, {
-																									style: { background: A },
+																								Object(H.jsxs)(Z.a, {
+																									children: [
+																										Object(H.jsx)(Ye.a, {
+																											style: { background: P },
+																										}),
+																										' Profil',
+																									],
 																								}),
-																								' Profil',
-																							],
-																						}),
-																						Object(F.jsx)(ie.a, {}),
-																						Object(F.jsxs)(Q.a, {
-																							children: [
-																								Object(F.jsx)(Ee.a, {
-																									children: Object(F.jsx)($e.a, {
-																										fontSize: 'small',
-																									}),
+																								Object(H.jsx)(ne.a, {}),
+																								Object(H.jsxs)(Z.a, {
+																									children: [
+																										Object(H.jsx)(Xe.a, {
+																											children: Object(H.jsx)(et.a, {
+																												fontSize: 'small',
+																											}),
+																										}),
+																										'Mina bokningar',
+																									],
 																								}),
-																								'Mina bokningar',
-																							],
-																						}),
-																						Object(F.jsxs)(Q.a, {
-																							children: [
-																								Object(F.jsx)(Ee.a, {
-																									children: Object(F.jsx)(Ke.a, {
-																										fontSize: 'small',
-																									}),
+																								Object(H.jsxs)(Z.a, {
+																									children: [
+																										Object(H.jsx)(Xe.a, {
+																											children: Object(H.jsx)(it.a, {
+																												fontSize: 'small',
+																											}),
+																										}),
+																										'Träningslogg',
+																									],
 																								}),
-																								'Träningslogg',
-																							],
-																						}),
-																						Object(F.jsxs)(Q.a, {
-																							onClick: () => e.logout(),
-																							children: [
-																								Object(F.jsx)(Ee.a, {
-																									children: Object(F.jsx)(Je.a, {
-																										fontSize: 'small',
-																									}),
+																								Object(H.jsxs)(Z.a, {
+																									onClick: () => e.logout(),
+																									children: [
+																										Object(H.jsx)(Xe.a, {
+																											children: Object(H.jsx)(rt.a, {
+																												fontSize: 'small',
+																											}),
+																										}),
+																										'Logga ut',
+																									],
 																								}),
-																								'Logga ut',
 																							],
 																						}),
 																					],
 																				}),
-																			],
-																		}),
+																		],
+																	}),
 																],
 															}),
 														],
 													}),
+													(() => {
+														switch (o) {
+															case 'home':
+																return Object(H.jsx)(V, { onNav: (e) => l(e) });
+															case 'book':
+																return Object(H.jsx)(me, { onLoginOpen: O, onLoginClose: v });
+															case 'price':
+																return Object(H.jsx)(Te, {});
+															default:
+																return !1;
+														}
+													})(),
 												],
 											}),
-											(() => {
-												switch (o) {
-													case 'home':
-														return Object(F.jsx)(V, { onNav: (e) => l(e) });
-													case 'book':
-														return Object(F.jsx)(ue, { onLoginOpen: u, onLoginClose: m });
-													case 'price':
-														return Object(F.jsx)(Ie, {});
-													default:
-														return !1;
-												}
-											})(),
+											Object(H.jsx)('div', { className: t.footer, children: 'Footer stuff' }),
 										],
 									}),
-									Object(F.jsx)('div', { className: t.footer, children: 'Footer stuff' }),
-								],
-							}),
-						});
+							  })
+							: Object(H.jsx)(Ve, {});
 					}),
 				),
-				Ot = i(127);
-			function* vt() {}
-			function* kt() {
-				yield Object(Ot.b)('@@router/LOCATION_CHANGE', vt);
+				Tt = i(128);
+			function* Dt() {}
+			function* zt() {
+				yield Object(Tt.b)('@@router/LOCATION_CHANGE', Dt);
 			}
-			var wt = function* () {
-				yield Object(Ot.a)([kt()]);
+			var Bt = function* () {
+				yield Object(Tt.a)([zt()]);
 			};
-			class St extends r.a.Component {
+			class Nt extends r.a.Component {
 				constructor(e) {
 					super(e), (this.state = { error: !1, errorInfo: null });
 				}
@@ -3329,14 +3512,14 @@
 				}
 				render() {
 					return this.state.hasError
-						? Object(F.jsxs)('div', {
+						? Object(H.jsxs)('div', {
 								children: [
-									Object(F.jsx)('h2', { children: 'Something went wrong.' }),
-									Object(F.jsxs)('details', {
+									Object(H.jsx)('h2', { children: 'Something went wrong.' }),
+									Object(H.jsxs)('details', {
 										style: { whiteSpace: 'pre-wrap' },
 										children: [
 											this.state.error && this.state.error.toString(),
-											Object(F.jsx)('br', {}),
+											Object(H.jsx)('br', {}),
 											this.state.errorInfo.componentStack,
 										],
 									}),
@@ -3345,24 +3528,24 @@
 						: this.props.children;
 				}
 			}
-			var Ct = St;
-			i(308);
-			const It = Object(h.a)(),
-				Tt = Object(c.a)(It),
-				Dt = Object(d.a)();
-			let zt;
-			zt = Object(s.a)(Dt, Tt)(s.d)(k(It));
-			Dt.run(wt),
+			var Rt = Nt;
+			i(323);
+			const At = Object(b.a)(),
+				Pt = Object(c.a)(At),
+				Wt = Object(d.a)();
+			let Lt;
+			Lt = Object(s.a)(Wt, Pt)(s.d)(w(At));
+			Wt.run(Bt),
 				l.a.render(
-					Object(F.jsx)(Ct, {
-						children: Object(F.jsx)(a.a, {
-							store: zt,
-							children: Object(F.jsx)(p.a, { history: It, children: Object(F.jsx)(yt, {}) }),
+					Object(H.jsx)(Rt, {
+						children: Object(H.jsx)(a.a, {
+							store: Lt,
+							children: Object(H.jsx)(p.a, { history: At, children: Object(H.jsx)(It, {}) }),
 						}),
 					}),
 					document.querySelector('#root'),
 				);
 		},
 	},
-	[[351, 1, 2]],
+	[[362, 1, 2]],
 ]);
