@@ -2013,7 +2013,7 @@
 										Object(H.jsxs)('div', {
 											className: t.header,
 											children: [
-												'Solo- och duolektion (1-2 eveler) - ',
+												'Solo- och duolektion (1-2 elever) - ',
 												Object(H.jsx)('span', {
 													style: { fontStyle: 'italic', paddingLeft: 7 },
 													children: '45 min',
